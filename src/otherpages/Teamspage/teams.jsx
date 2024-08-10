@@ -4,6 +4,7 @@ import sir1 from '../../assets/Sir1.png'
 import sir2 from '../../assets/VShah.png'
 import '../Teamspage/teams.css'
 import ujjwalS from '../../assets/ujjalSir.png'
+import Timeline from './Timeline'
 
 
 function Teamspage() {
@@ -53,7 +54,7 @@ function Teamspage() {
                         </div>
 
                     </div>
-                    <div className='flex'>
+                    <div className='flex md:flex-row flex-col'>
                         <div className='prof mx-auto'>
                             <img src={ujjwalS} className='sir' />
                             <div className='text flex align-center text-center'>
@@ -78,7 +79,7 @@ function Teamspage() {
                     <div className='p-1'>
                         <h2 className='text-2xl font-bold mb-4'>Executive Body</h2>
                     </div>
-                    <div className='flex'><div className='prof mx-auto'>
+                    <div className='flex md:flex-row flex-col'><div className='prof mx-auto'>
                         <img src={ujjwalS} className='sir' />
                         <div className='text flex align-center text-center'>
                             <p className='text-center'>Ujjwal Aman</p>
@@ -92,6 +93,7 @@ function Teamspage() {
                         </div>
                     </div>
                 </div>
+                <Timeline/>
 
             </div>
         </>
