@@ -10,23 +10,26 @@
 .sb__footer{
     display: flex;
     flex-direction: column;
+   
 }
 
 .sb__footer-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
+    gap: 20%;
 }
 
 .sb__footer-links_div{
     width: 150px;
     margin: 2rem 1rem 1rem 1rem;
     display: flex;
+   
     justify-content: flex-start;
     flex-direction: column;
     color: white;
