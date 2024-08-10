@@ -10,10 +10,6 @@ body{
     padding: 5rem;
   }
   
-  
-    .eventbg{
-      background-image: url('./eventbg.svg');
-    }
     .event-card-container {
       display: flex;
       justify-content: center;
