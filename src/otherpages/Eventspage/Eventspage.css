@@ -5,8 +5,9 @@ body{
   .recbox1{
     position: relative;
     z-index: 9;
-    margin-top: -50px;
+    margin-top: -300px;
     margin-bottom: -100px;
+    padding: 5rem;
   }
   
   
