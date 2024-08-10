@@ -23,18 +23,16 @@ import leaf2 from '../Eventspage/leaf2.png'
 import Slidermain from '/src/components/Slider/Slidermain.jsx'
 import Socials from "../../components/socials/socials"
 import iatweblogo from '../Eventspage/iatweblogo.png'
+import eventsbg from '../Eventspage/eventsbg.png'
 
 function Eventspage() {
   return (
-    <div className="flex flex-col items-center w-screen">
-      <div className="eventbg h-screen w-screen text-white bg-no-repeat">
-        <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
-          <h1 className="lg:px-48">Experience Exclusivity : Join Premium Club Events</h1>
-        </div>
-      </div>
-      <div className="h-[13rem] w-[50%] bg-gradient-to-r from-blue-900 via-blue-600 to-blue-900 rounded-3xl text-white flex items-center justify-center recbox1">
-        <img src={iatweblogo} className="iatlogo" alt="" />
-      </div>
+      <div className="h-auto w-full text-white">
+        <img src= {eventsbg} alt="" />
+        {/* <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center"> */}
+          {/* <h1 className="lg:px-48">Experience Exclusivity : Join Premium Club Events</h1> */}
+        {/* </div> */}
+      
       <div className="bg-white w-screen overflow-hidden">
         <div className="mt-[150px] text-center text-slate-700">
           <h1 className="lg:text-[50px]">Unleash Wide Range of Exciting Events.</h1>
