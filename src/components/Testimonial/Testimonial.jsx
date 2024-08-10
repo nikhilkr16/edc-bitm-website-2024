@@ -13,7 +13,7 @@ function Testimonial() {
                 <h1 className="text-[25px] ml-[-25px] font-bold">Testimonials</h1>
             </div>
             <div className="mt-12">
-                <h1 className="text-[35px] font-bold">What our mentors say</h1>
+                <h1 className="text-[35px] font-bold ">What Our Mentors Say</h1>
                 <p className="mt-12">Discover what our valued mentors have to say about their experiences with us in the Entrepreneur Development Cell.</p>
             </div>
             <div className="justify-center mt-16 mb-16 md:mx-60 shadow-2xl rounded-lg">

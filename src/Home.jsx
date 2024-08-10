@@ -11,6 +11,7 @@ import Wave from "./components/wave/wave.jsx"
 import Slidermain from "./components/Slider/Slidermain.jsx"
 import Testimonial from "./components/Testimonial/Testimonial.jsx"
 import Socials from "./components/socials/socials.jsx"
+//import Gallery from "./components/Slider/carousel.jsx"
 
 
 function Home() {

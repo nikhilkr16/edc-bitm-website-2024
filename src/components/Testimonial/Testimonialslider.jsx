@@ -38,7 +38,7 @@ function Testimonialslider() {
                 <img src={img} alt="" />
                 <div className="flex flex-col">
                     <h1>xyz</h1>
-                    <p>Controller of Examination, BIT Mesra Dr. Ritesh Kumar Singh</p>
+                    <p>Controller of Examination, BIT Mesra</p>
                 </div>
             </div>
         </div>
