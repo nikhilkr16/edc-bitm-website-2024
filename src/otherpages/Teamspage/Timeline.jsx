@@ -1,46 +1,76 @@
 import React from "react";
+import edclogo from "../../assets/edclogo.png";
+import '../Teamspage/timeline.css';
 
 function Timeline(){
     return (
-        <div className="h-screen w-full flex justify-center items-center">
-            <div class="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
-        <div class="col-span-4 w-full h-full ">
-            <div class="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                <h1 class="text-white text-xl font-medium py-2">Title</h1>
-                <p class="text-gray-100 sm:text-sm text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt corporis consequuntur voluptate nulla iusto quam ut quasi, eaque quas omnis vero totam ullam, reprehenderit ratione pariatur accusamus suscipit odit nostrum?</p>
+           <div className='teamsboxx'>
+   <div className='p-1'> <h3 className='text-xl font-semibold ml-7 mb-4 mt-8'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>Ha</span>ll of Fame</h3>
+       <h2 className='text-2xl font-bold ml-7 mb-4 mt-7 '>Previous Presidents</h2>
+    </div>   
+    <div className='teamstimeee'>       
+    <div className='teamstimeline'>
+    <div class="teamscontainer teamsleft-container">
+         <img src={edclogo} alt="EDC Logo" />
+                    <div class="teamstext-box">
+                <h2>EDC President</h2>
+                <small>2017-2018</small>
+                <p>Narendra Modi</p>
+                <span class="left-container-arrow"></span>
             </div>
+            </div>
+      <div className="teamscontainer teamsright-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2018-2019</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
         </div>
-        <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-            <div class="h-full w-1 bg-green-500"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-green-500 z-10 text-white text-center">1</div>
-        </div>
-        <div class="col-span-4 w-full h-full"></div>
+      </div>
 
+      <div className="teamscontainer teamsleft-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2019-2020</small>
+          <p>Narendra Modi</p>
+          <span className="left-container-arrow"></span>
+        </div>
+      </div>
 
-        <div class="col-span-4 w-full h-full"></div>
-        <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-            <div class="h-full w-1 bg-green-500"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-green-500 z-10 text-white text-center">2</div>
+      <div className="teamscontainer teamsright-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2020-2021</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
         </div>
-        <div class="col-span-4 w-full h-full ">
-            <div class="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                <h1 class="text-white text-xl font-medium py-2">Title</h1>
-                <p class="text-gray-100 sm:text-sm text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt corporis consequuntur voluptate nulla iusto quam ut quasi, eaque quas omnis vero totam ullam, reprehenderit ratione pariatur accusamus suscipit odit nostrum?</p>
-            </div>
+      </div>
+
+      <div className="teamscontainer teamsleft-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2021-2022</small>
+          <p>Narendra Modi</p>
+          <span className="left-container-arrow"></span>
         </div>
-        <div class="col-span-4 w-full h-full ">
-            <div class="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                <h1 class="text-white text-xl font-medium py-2">Title</h1>
-                <p class="text-gray-100 sm:text-sm text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt corporis consequuntur voluptate nulla iusto quam ut quasi, eaque quas omnis vero totam ullam, reprehenderit ratione pariatur accusamus suscipit odit nostrum?</p>
-            </div>
+      </div>
+
+      <div className="teamscontainer teamsright-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2022-2023</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
         </div>
-        <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-            <div class="h-full w-1 bg-green-500"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-green-500 z-10 text-white text-center">3</div>
-        </div>
-        <div class="col-span-4 w-full h-full"></div>
-        </div>
-        </div>
+      </div>
+    </div>
+    </div>
+    </div>
     )
     
 }

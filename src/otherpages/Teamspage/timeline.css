@@ -1,12 +1,12 @@
-.boxx{
+.teamsboxx{
     background-color: white;
 }
-.timeee{
+.teamstimeee{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.timeline{
+.teamstimeline{
     position:relative;
     max-width: 1200px;
     margin-left: 100px;
@@ -15,7 +15,7 @@
     margin-bottom: 20px;
     background-color: white;
 }
-.container{
+.teamscontainer{
     padding: 10px 50px;
     position: relative;
     width: 50%;
@@ -33,26 +33,26 @@
     }
 }
 
-.container:nth-child(1){
+.teamscontainer:nth-child(1){
     animation-delay: 0s;
 }
-.container:nth-child(2){
+.teamscontainer:nth-child(2){
     animation-delay: 1s;
 }
-.container:nth-child(3){
+.teamscontainer:nth-child(3){
     animation-delay: 2s;
 }
-.container:nth-child(4){
+.teamscontainer:nth-child(4){
     animation-delay: 3s;
 }
-.container:nth-child(5){
+.teamscontainer:nth-child(5){
     animation-delay: 4s;
 }
-.container:nth-child(6){
+.teamscontainer:nth-child(6){
     animation-delay: 5s;
 }
 
-.text-box{
+.teamstext-box{
     padding: 33px 30px;
     background: #dadada;
     position:relative;
@@ -61,15 +61,15 @@
     width: 25rem;
     height: 10rem;
 }
-.left-container{
+.teamsleft-container{
     right: 50%;
     text-align: right;
    
 }
-.right-container{
+.teamsright-container{
     left: 50%;
 }
-.container img{
+.teamscontainer img{
     position: absolute;
     width: 40px;
     border-radius: 50%;
@@ -77,10 +77,10 @@
     top: 32px;
     z-index: 10;
 }
-.right-container img{
+.teamsright-container img{
     left: -20px
 }
-.timeline::after{
+.teamstimeline::after{
     content: '';
     position: absolute;
     width: 6px;
@@ -101,10 +101,10 @@
     }
 }
 
-.text-box h2{
+.teamstext-box h2{
     font-weight: 600;
 }
-.text-box small{
+.teamstext-box small{
     display:inline-block;
     margin-bottom: 15px;
 }
@@ -131,19 +131,19 @@
     left: -15px;
 }
 @media screen and (max-width: 600px){
-    .timeline::after{
+    .teamstimeline::after{
         left: 0px;
     }
-    .timeee{
+    .teamstimeee{
         margin-left: 2px;
     }
-    .container{
+    .teamscontainer{
         width: 500px;
         padding-left: 80px;
         padding-right: 25px;
         object-fit: cover;
     }
-    .text-box{
+    .teamstext-box{
         left: -0.1rem;
         width:12rem;
         height: 7rem;
@@ -153,16 +153,16 @@
         text-align: left;
 
     }
-    .text-box small{
+    .teamstext-box small{
         margin-bottom: 10px;
     }
-    .right-container{
+    .teamsright-container{
         left: 0;
     }
-    .left-container{
+    .teamsleft-container{
         right: 0;
     }
-    .left-container img, .right-container img{
+    .teamsleft-container img, .teamsright-container img{
         left: -20px ;
     }
     .left-container-arrow, .right-container-arrow{
