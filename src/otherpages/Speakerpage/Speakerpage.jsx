@@ -13,6 +13,11 @@ import anshul from './anshul.png'
 import anmol from './anmol.png'
 import aditya from './aditya.png'
 import richa from './richa.png'
+import sreedhar from './sreedhar.png'
+import adityaRanjan from './adityaRanjan.png'
+import rishavJain from './Rishabh Jain.png'
+import prateek from './prateek.png'
+import sanjeev from './sanjeev.png'
 
 
 import '../Speakerpage/speakerpage.css'
@@ -35,78 +40,106 @@ function Speakerpage() {
             <div className="mt-12">
                 <h1 className="text-[35px] font-bold">E-Summit’24</h1>
             </div>
-            <div className='grid md:grid-cols-3 grid-cols-2 md:p-2'>
+            <div className='grid md:grid-cols-3 grid-cols-1 md:p-2'>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={akshay} className='' alt="" />
-                <h1>Akshay Makar</h1>
-                <h2>founder</h2>
+                <h1 className=' text-xl md:text-2xl'>Akshay Makar</h1>
+                <h2 className='text-sm md:text-lg'>Founder</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={vatsal} alt="" />
-                <h1>Vatsal Kanakiya</h1>
-                <h2>founder</h2>
+                <h1  className=' text-lg md:text-2xl'>Vatsal Kanakiya</h1>
+                <h2 className='text-sm md:text-lg' >Founder</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={ravi} alt="" />
-                <h1>Ravi K Ranjan</h1>
-                <h2>founder</h2>
+                <h1  className=' text-lg md:text-2xl'>Ravi K Ranjan</h1>
+                <h2 className='text-sm md:text-lg'>founder</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={jyoti} alt="" />
-                <h1>Jyoti Agarwal</h1>
-                <h2>Executive Exchange</h2>
+                <h1  className=' text-lg md:text-2xl'>Jyoti Agarwal</h1>
+                <h2 className='text-sm md:text-lg'>Executive Exchange</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={pawan} alt="" />
-                <h1>Pawan Kumar Rai</h1>
-                <h2>founder</h2>
+                <h1  className=' text-lg md:text-2xl'>Pawan Kumar Rai</h1>
+                <h2 className='text-sm md:text-lg'>Founder</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={rahul} alt="" />
-                <h1>Rahul Anand </h1>
-                <h2>Masterclass</h2>
+                <h1  className=' text-lg md:text-2xl'>Rahul Anand </h1>
+                <h2 className='text-sm md:text-lg'>Masterclass</h2>
               </div>
             </div>
             <div className="mt-0">
                 <h1 className="text-[35px] font-bold">Previous Speakers</h1>
             </div>
-            <div className='grid md:grid-cols-3 grid-cols-2 md:p-2'>
+            <div className='grid md:grid-cols-3 grid-cols-1 md:p-2'>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={aman} alt="" />
-                <h1>Aman Dhattarwal</h1>
-                <h2>Educator</h2>
+                <h1  className=' text-lg md:text-2xl'>Aman Dhattarwal</h1>
+                <h2 className='text-sm md:text-lg'>Educator</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={ayush} alt="" />
-                <h1>Ayush Jaiswal</h1>
-                <h2>Founder-Pesto</h2>
+                <h1  className=' text-lg md:text-2xl'>Ayush Jaiswal</h1>
+                <h2 className='text-sm md:text-lg'>Founder-Pesto</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={anshul} alt="" />
-                <h1>Anshul Rustaggi</h1>
-                <h2>NFT(New Financial Trajectory)</h2>
+                <h1  className=' text-lg md:text-2xl'>Anshul Rustaggi</h1>
+                <h2 className='text-sm md:text-lg'>NFT(New Financial Trajectory)</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={anmol} alt="" />
-                <h1>Anmol Sharma</h1>
-                <h2>Entrepreneur</h2>
+                <h1  className=' text-lg md:text-2xl'>Anmol Sharma</h1>
+                <h2 className='text-sm md:text-lg'>Entrepreneur</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={aditya} alt="" />
-                <h1 className='text-auto'>Aditya Arora</h1>
-                <h2>founder</h2>
+                <h1  className=' text-lg md:text-2xl'>Aditya Arora</h1>
+                <h2 className='text-sm md:text-lg'>Startups in the age of recession</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={vineet} alt="" />
-                <h1>Vineet Barnwal</h1>
-                <h2>founder</h2>
+                <h1  className=' text-lg md:text-2xl'>Vineet Barnwal</h1>
+                <h2 className='text-sm md:text-lg'>Leading Campus trainer and coach</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={richa} alt="" />
-                <h1>Richa Shrivastava</h1>
-                <h2>Managing partner -
+                <h1  className=' text-lg md:text-2xl'>Richa Shrivastava</h1>
+                <h2 className='text-sm md:text-lg'>Managing partner-
                 Maker's Asylum</h2>
               </div>
+              <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
+                <img src={sreedhar} alt="" />
+                <h1  className=' text-lg md:text-2xl'>Sridhar Jeychandran</h1>
+                <h2 className='text-sm md:text-lg'>Co-founder - Crio.do</h2>
+              </div>
+              <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
+                <img src={adityaRanjan} alt="" />
+                <h1  className=' text-lg md:text-2xl'>Aditya Ranjan</h1>
+                <h2 className='text-sm md:text-lg'>Journey of an IAS</h2>
+              </div>
+              <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
+                <img src={rishavJain} alt="" />
+                <h1  className=' text-lg md:text-2xl'>Rishav Jain</h1>
+                <h2 className='text-sm md:text-lg'>Fireside Chat</h2>
+              </div>
+
+              <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
+                <img src={prateek} alt="" />
+                <h1  className=' text-lg md:text-2xl'>Pratik Gauri</h1>
+                <h2 className='text-sm md:text-lg'>Innovating Education with Web 3.0</h2>
+              </div>
+
+              <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
+                <img src={sanjeev} alt="" />
+                <h1  className=' text-lg md:text-2xl'>Sanjeev Mohanty</h1>
+                <h2 className='text-sm md:text-lg'>MD - Levi Strauss and & Co.</h2>
+              </div>
+
             </div>
             
         </div>
