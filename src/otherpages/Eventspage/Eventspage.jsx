@@ -1,5 +1,7 @@
 import React from "react"
-import Card from "./Card"
+import Card1 from "./Card1"
+import Card2 from "./Card2"
+import Card3 from "./Card3"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
@@ -27,27 +29,27 @@ function Eventspage(){
     return(
         <>
         <div className="flex flex-col items-center w-screen">
-            <div className="eventbg h-screen w-screen text-white ">
+            <div className=" eventbg h-screen text-white ">
                 <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
-                <h1 className="lg:px-48">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
-                <button className="md:text-[25px] px-4 mt-6 border border-white rounded">Let's Start</button>
+                <h1 className="text-5xl p-14 font-semibold leading-tight ">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
+                <button className="text-3xl  pt-3 pl-10 pr-10 pb-3 mt-6 border border-white rounded hover:bg-white hover:scale-125 hover:text-black">Let's Start</button>
                 </div>
             </div>
-            <div className="h-[150px] w-[50%] bg-black rounded-3xl text-white flex items-center justify-center recbox1">
-                <h1 className="text-center lg:text-[64px]">INVESTOR’S FORGE</h1>
+            <div className="h-32 w-1/2 bg-black rounded-3xl text-white flex items-center justify-center recbox1">
+                <h1 className="text-center text-5xl  ">INVESTOR’S FORGE</h1>
             </div>
             <div className="bg-white w-screen overflow-hidden">
                 <div className="mt-[150px] text-center text-slate-700">
-                    <h1 className="lg:text-[50px]">Broad spectrum of events we offer!</h1>
+                    <h1 className="text-2xl">Broad spectrum of events we offer!</h1>
                 </div>
-                <div className="flex md:flex-row flex-col gap-4 justify-center items-center mt-20">
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                <div className="flex md:flex-row p-10 flex-col gap-4 justify-center items-center mt-20">
+                    <Card1/>
+                    <Card2/>
+                    <Card3/>
                 </div>
-                <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center">
+                <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center leaf">
                     <img src={leaf1} alt="" />
-                    <p className="md:text-[32px]">Stay informed about all our upcoming events by following us on our social media handles. Connect with us for the     latest updates, announcements, and exclusive content!</p>
+                    <p className="text-3xl">Stay informed about all our upcoming events by following us on our social media handles. Connect with us for the     latest updates, announcements, and exclusive content!</p>
                     <img src={leaf2} alt="" />
                 </div>
                 <div className="flex flex-row justify-center items-center gap-6">

@@ -97,7 +97,7 @@ body{
     .participate-button:hover {
       background-color: #218838;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
       .event-card-container {
         margin: 10px;
       }
@@ -146,5 +146,22 @@ body{
         padding: 4px 6px;
         font-size: 9px;
       }
+      
     }
-    
+
+    @media only screen and (max-width: 600px) {
+      .investor-forge {
+        padding: 1rem 2rem;
+      }
+    }
+    .card1{
+      background-image: url("Rectangle_69[1].png");
+    }
+  
+    .card2{
+      background-image: url("Rectangle_70[1].png");
+    }
+
+    .card3{
+      background-image: url("Rectangle_71[1].png");
+    }
