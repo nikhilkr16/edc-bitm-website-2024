@@ -5,6 +5,10 @@ import { MdGroups } from "react-icons/md";
 import { GiFootprint } from "react-icons/gi";
 import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
+import img1 from '../Hero/Idea.png'
+import img2 from '../Hero/Event.png'
+import img3 from '../Hero/People.png'
+import img4 from '../Hero/Feet.png'
 
 function Hero() {
    const[counterOn,setCounterOn] = useState(false)
@@ -17,34 +21,34 @@ function Hero() {
        <div className='w-3/5 p-10 hero-2'>
        <div className='p-1'> <h3 className='text-xl font-semibold mb-4'><span className='bg-yellow-300 pt-2 pb-2 pl-4'>ED</span>C BIT ,MESRA</h3>
              <h2 className='text-2xl font-bold mb-4 '>Our Stats</h2>
-             <p className='text-start text-sm content1'>With a team of dedicated experts and passionate empowering entrepreneurs, we bring a wealth of experience and knowledge to every proposal. Our expertise helps to enhance one's fostered growth and supports each entrepreneurial journey.</p>
+             <p className='text-start text-sm content1 mb-4'>With a team of dedicated experts and passionate empowering entrepreneurs, we bring a wealth of experience and knowledge to every proposal. Our expertise helps to enhance one's fostered growth and supports each entrepreneurial journey.</p>
        </div>
        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
        <div className=' w-full h-1/2 flex mt-2 flex-col gap-8'>
          
          <div className=' flex items-center pt-5 justify-center gap-24 hero-3'>  
-             <div className=' w-24 h-20  flex flex-col items-center '>
-            <div className=''>  <span className=' text-5xl decoration-yellow-300'> <HiOutlineLightBulb /> </span></div>
+             <div className=' w-24 flex flex-col items-center text-xl font-semibold'>
+            <div className=''>  <span className=' text-3xl decoration-yellow-300'> <img src={img1} alt="" /> </span></div>
          <h1 >{counterOn && <CountUp start={0} end={30} duration={2} delay={0.25}/> }+</h1>
-         <h5 className='text-xs'>startups</h5>
+         <h5 className=''>startups</h5>
          </div>
-         <div className=' w-24  flex flex-col items-center '>
-            <div className='text-4xl'> <FaCalendarAlt /> </div>
+         <div className=' w-24  flex flex-col items-center text-xl font-semibold '>
+            <div className='text-3xl'> <img src={img2} alt="" /> </div>
          <h1 >{counterOn && <CountUp start={0} end={60} duration={2} delay={0.25}/> }+</h1>
-         <h5 className='text-xs'> events</h5>
+         <h5 className=''> events</h5>
          </div>
       </div>
       
-      <div className='flex gap-24 hero-3 justify-center'>  
+      <div className='flex gap-24 hero-3 justify-center text-xl font-semibold'>  
           <div className=' w-24  flex flex-col items-center'>
-            <div className='text-5xl'> <MdGroups /> </div>
+            <div className='text-3xl'> <img src={img3} alt="" /> </div>
          <h1 > {counterOn && <CountUp start={0} end={80} duration={2} delay={0.25}/> }+</h1>
-         <h5 className='text-xs'>Members</h5>
+         <h5 className=''>Members</h5>
          </div>
-         <div className=' w-24  flex flex-col items-center'>
-            <div className='text-1xl'> <GiFootprint />  <GiFootprint /></div>
+         <div className=' w-24  flex flex-col items-center text-xl font-semibold'>
+            <div className=''> <img src={img4} alt="" /></div>
          <h1 > {counterOn && <CountUp start={0} end={7000} duration={2} delay={0.25}/> }+</h1>
-         <h5 className='text-xs'>footfalls</h5>
+         <h5 className=''>footfalls</h5>
          </div>
 </div>
 
