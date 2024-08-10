@@ -22,7 +22,7 @@ function Hero() {
        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
        <div className=' w-full h-1/2 flex mt-2 flex-col gap-8'>
          
-         <div className=' flex items-center pt-5 justify-start gap-24 hero-3'>  
+         <div className=' flex items-center pt-5 justify-center gap-24 hero-3'>  
              <div className=' w-24 h-20  flex flex-col items-center '>
             <div className=''>  <span className=' text-5xl decoration-yellow-300'> <HiOutlineLightBulb /> </span></div>
          <h1 >{counterOn && <CountUp start={0} end={30} duration={2} delay={0.25}/> }+</h1>
@@ -35,7 +35,7 @@ function Hero() {
          </div>
       </div>
       
-      <div className='flex gap-24 hero-3'>  
+      <div className='flex gap-24 hero-3 justify-center'>  
           <div className=' w-24  flex flex-col items-center'>
             <div className='text-5xl'> <MdGroups /> </div>
          <h1 > {counterOn && <CountUp start={0} end={80} duration={2} delay={0.25}/> }+</h1>
@@ -51,7 +51,7 @@ function Hero() {
        </div>
        </ScrollTrigger>
        </div>
-        <div className='w-2/5 p-8 flex flex-col gap-6 hero-2'>
+        <div className='w-2/5 p-8 flex flex-col gap-6 hero-2 justify-center items-center'>
         <img  className='w-64 h-40 rounded-xl' src="https://images.unsplash.com/photo-1632914146475-bfe6fa6b2a12?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <img className=' w-64 h-40' src="https://plus.unsplash.com/premium_photo-1667516621165-d2b848cc7587?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 
