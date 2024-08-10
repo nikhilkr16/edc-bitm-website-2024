@@ -60,6 +60,7 @@
     font-size: 15px;
     width: 25rem;
     height: 10rem;
+    max-width: 100vh;
 }
 .teamsleft-container{
     right: 50%;
@@ -131,26 +132,33 @@
     left: -15px;
 }
 @media screen and (max-width: 600px){
+    .teamsboxx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .teamstimeline::after{
         left: 0px;
     }
     .teamstimeee{
-        margin-left: 2px;
+        margin-left: 0px;
     }
     .teamscontainer{
-        width: 500px;
+        /* width: 500px; */
         padding-left: 80px;
         padding-right: 25px;
         object-fit: cover;
     }
     .teamstext-box{
         left: -0.1rem;
-        width:12rem;
+        width:11rem;
         height: 7rem;
         font-size: 12px;
         object-fit: cover;
         font-weight: bold;
         text-align: left;
+        max-width: 100vh;
+        margin-right: 0px;
 
     }
     .teamstext-box small{
@@ -237,4 +245,3 @@
     
         }
       }
-
