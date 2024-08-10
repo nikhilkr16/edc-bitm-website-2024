@@ -1,7 +1,7 @@
 import React from 'react'
 
 import akshay from './akshay.png'
-import vatsal from './vatsaL.png'
+import vatsal from './vatsal.png'
 import ravi from './ravi.png'
 import jyoti from './jyoti.jpg'
 import pawan from './pawan.png'
