@@ -27,7 +27,7 @@ import eventsbg from '../Eventspage/eventsbg.png'
 
 function Eventspage() {
   return (
-      <div className="h-auto w-full text-white">
+      <div className="h-auto w-full text-black">
         <img src= {eventsbg} alt="" />
         {/* <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center"> */}
           {/* <h1 className="lg:px-48">Experience Exclusivity : Join Premium Club Events</h1> */}
