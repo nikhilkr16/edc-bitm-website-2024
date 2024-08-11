@@ -2,7 +2,7 @@ import React from "react"
 //import Card from "./Card"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
-import { FaFacebook } from "react-icons/fa"
+import { FaFacebookSquare } from "react-icons/fa";
 import '../Eventspage/Eventspage.css'
 import event1 from '../Eventspage/Image(EVENT)/event1.png'
 import event2 from '../Eventspage/Image(EVENT)/event2.png'
@@ -69,9 +69,9 @@ function Eventspage() {
           <img src={leaf2} alt="" />
         </div>
         <div className="flex flex-row justify-center items-center gap-6">
+          <a href="https://facebook.com/edcbitmesra/"><FaFacebookSquare className="w-14 h-14" /></a>
           <a href="https://www.instagram.com/edcbitmesra/"><FaInstagram className="w-14 h-14" /></a>
           <a href="https://www.linkedin.com/company/edcbitmesra/"><FaLinkedin className="w-14 h-14" /></a>
-          <a href="https://facebook.com/edcbitmesra/"><FaFacebook className="w-14 h-14" /></a>
         </div>
       </div>
       <div className="md:m-20 m-4 mt-20">
