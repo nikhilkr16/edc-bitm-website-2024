@@ -8,7 +8,7 @@ function Socials() {
                 <div className="backdrop-brightness-[0.25]">
                 <div className="flex flex-row justify-center items-center p-12">
                     <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
-                    <h1 className="text-[25px] ml-[-30px] font-bold">Social Handles</h1>
+                    <h1 className="text-[25px] ml-[-30px] font-bold ">Social Handles</h1>
                 </div>
                 <div className="text-center text-[45px] font-bold">Subscribe To Get The Latest News And Updates</div>
                 <div className="flex flex-col sm:flex-row justify-center items-center space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 p-12">
