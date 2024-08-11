@@ -1,7 +1,7 @@
 import React from "react";
 import edclogo from "../../assets/edclogo.png";
 import '../Teamspage/timeline.css';
-import ujjwalS from '../../assets/ujjalSir.png'
+
 function Timeline(){
     return (
       <div className='teamsparentboxx '>
@@ -13,104 +13,62 @@ function Timeline(){
     <div className='teamstimeline'>
     <div class="teamscontainer teamsleft-container">
          <img src={edclogo} alt="EDC Logo" />
-           <div>
-           <div class="teamstext-box">
-          <div
-      className=" sm:hidden bg-cover bg-center h-24 w-24 relative z-100 mr-20 ml-8 border border-black	rounded-md hidden md:block lg:block xl:block"
-      style={{ backgroundImage: `url(${ujjwalS})` }}
-         >
-      {/* You can add any content here */}
-    </div>
-            <div>
+                    <div class="teamstext-box">
                 <h2>EDC President</h2>
                 <small>2017-2018</small>
                 <p>Narendra Modi</p>
                 <span class="left-container-arrow"></span>
-                </div>
             </div>
-           </div>
-            
             </div>
-            <div class="teamscontainer teamsright-container">
-         <img src={edclogo} alt="EDC Logo" />
-           <div>
-           <div class="teamstext-box">
-          <div
-      className=" bg-cover bg-center h-24 w-24 relative z-100 mr-20 ml-8 border border-black	rounded-md hidden md:block lg:block xl:block"
-      style={{ backgroundImage: `url(${ujjwalS})` }}
-         >
-      {/* You can add any content here */}
-    </div>
-            <div>
-                <h2>EDC President</h2>
-                <small>2017-2018</small>
-                <p>Narendra Modi</p>
-                <span class="right-container-arrow"></span>
-                </div>
-            </div>
-           </div>
-            
-            </div>
-      <div class="teamscontainer teamsleft-container">
-         <img src={edclogo} alt="EDC Logo" />
-           <div>
-           <div class="teamstext-box">
-          <div
-      className=" bg-cover bg-center h-24 w-24 relative z-100 mr-20 ml-8 border border-black	rounded-md hidden md:block lg:block xl:block"
-      style={{ backgroundImage: `url(${ujjwalS})` }}
-         >
-      {/* You can add any content here */}
-    </div>
-            <div>
-                <h2>EDC President</h2>
-                <small>2017-2018</small>
-                <p>Narendra Modi</p>
-                <span class="left-container-arrow"></span>
-                </div>
-            </div>
-           </div>
-            
-            </div>
-            <div class="teamscontainer teamsright-container">
-         <img src={edclogo} alt="EDC Logo" />
-           <div>
-           <div class="teamstext-box">
-          <div
-      className=" bg-cover bg-center h-24 w-24 relative z-100 mr-20 ml-8 border border-black	rounded-md hidden md:block lg:block xl:block"
-      style={{ backgroundImage: `url(${ujjwalS})` }}
-         >
-      {/* You can add any content here */}
-    </div>
-            <div>
-                <h2>EDC President</h2>
-                <small>2017-2018</small>
-                <p>Narendra Modi</p>
-                <span class="right-container-arrow"></span>
-                </div>
-            </div>
-           </div>
-            
-            </div>
-      <div class="teamscontainer teamsleft-container">
-         <img src={edclogo} alt="EDC Logo" />
-           <div>
-           <div class="teamstext-box">
-          <div
-      className=" bg-cover bg-center h-24 w-24 relative z-100 mr-20 ml-8 border border-black	rounded-md hidden md:block lg:block xl:block"
-      style={{ backgroundImage: `url(${ujjwalS})` }}
-         >
-      {/* You can add any content here */}
-    </div>
-            <div>
-                <h2>EDC President</h2>
-                <small>2017-2018</small>
-                <p>Narendra Modi</p>
-                <span class="left-container-arrow"></span>
-                </div>
-            </div>
-           </div>
-            
-            </div>
+      <div className="teamscontainer teamsright-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2018-2019</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
+        </div>
+      </div>
+
+      <div className="teamscontainer teamsleft-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2019-2020</small>
+          <p>Narendra Modi</p>
+          <span className="left-container-arrow"></span>
+        </div>
+      </div>
+
+      <div className="teamscontainer teamsright-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2020-2021</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
+        </div>
+      </div>
+
+      <div className="teamscontainer teamsleft-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2021-2022</small>
+          <p>Narendra Modi</p>
+          <span className="left-container-arrow"></span>
+        </div>
+      </div>
+
+      <div className="teamscontainer teamsright-container">
+        <img src={edclogo} alt="EDC Logo" />
+        <div className="teamstext-box">
+          <h2>EDC President</h2>
+          <small>2022-2023</small>
+          <p>Narendra Modi</p>
+          <span className="right-container-arrow"></span>
+        </div>
+      </div>
     </div>
     </div>
     </div>
