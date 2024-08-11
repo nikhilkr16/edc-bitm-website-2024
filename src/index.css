@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
 @tailwind base;
 @tailwind components;
 @layer base {
-  html {
+  /* html {
     @apply font-inter;
     
 
-  }
+  } */
+}
+/* @import "{path_to_your_font_import}/geist/font/sans"; */
+body {
+	font-family: "GeistSans", sans-serif;
 }
 
 @tailwind utilities;
