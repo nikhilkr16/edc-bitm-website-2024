@@ -25,6 +25,10 @@ import Socials from "../../components/socials/socials"
 import iatweblogo from '../Eventspage/iatweblogo.png'
 import eventsbg from '../Eventspage/eventsbg.png'
 import img1 from '../Eventspage/img1.png'
+import card1 from '../Eventspage/card1.png'
+import card2 from '../Eventspage/card2.png'
+import card3 from '../Eventspage/card3.png'
+
 
 function Eventspage() {
   return (
@@ -39,19 +43,19 @@ function Eventspage() {
           <h1 className="lg:text-[50px]">Unleash Wide Range of Exciting Events.</h1>
         </div>
         <div className="flex md:flex-row flex-col gap-8 justify-center items-center mt-20 md:p-20 p-8">
-        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl card1 text-white">
+        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl text-white" style={{ backgroundImage: `url(${card1})`}} >
             <h1 className="font-bold md:text-[37px]">Formal events</h1>
             <p>Elevating Experiences with Distinguished Events</p>
             <button className="bg-white p-2 rounded-3xl text-black">Explore More</button>
             <img src={img1} alt="" srcset="" />
         </div>
-        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl card3">
+        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl" style={{ backgroundImage: `url(${card3})`}}>
             <h1 className="font-bold md:text-[37px]">Formal events</h1>
             <p>Elevating Experiences with Distinguished Events</p>
             <button className="bg-white p-2 rounded-3xl">Explore More</button>
             <img src={img1} alt="" srcset="" />
         </div>
-        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl card2 text-white ">
+        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl text-white " style={{ backgroundImage: `url(${card2})`}}>
             <h1 className="font-bold md:text-[37px]">Formal events</h1>
             <p>Elevating Experiences with Distinguished Events</p>
             <button className="bg-white p-2 rounded-3xl text-black">Explore More</button>

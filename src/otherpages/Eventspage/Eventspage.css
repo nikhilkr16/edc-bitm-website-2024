@@ -145,16 +145,5 @@ body{
       }
     }
 
-    .card1{
-      background-image: url("src/otherpages/Eventspage/card1.png");
-      background: cover;
-    }
-    .card2{
-      background-image: url("src/otherpages/Eventspage/card2.png");
-      background: cover;
-    }
-    .card3{
-      background-image: url("src/otherpages/Eventspage/card3.png");
-      background: cover;
-    }
+    
     
