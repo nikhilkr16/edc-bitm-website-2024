@@ -1,5 +1,5 @@
 import React from "react"
-import Card from "./Card"
+//import Card from "./Card"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
@@ -24,6 +24,7 @@ import Slidermain from '/src/components/Slider/Slidermain.jsx'
 import Socials from "../../components/socials/socials"
 import iatweblogo from '../Eventspage/iatweblogo.png'
 import eventsbg from '../Eventspage/eventsbg.png'
+import img1 from '../Eventspage/img1.png'
 
 function Eventspage() {
   return (
@@ -37,10 +38,26 @@ function Eventspage() {
         <div className="mt-[150px] text-center text-slate-700">
           <h1 className="lg:text-[50px]">Unleash Wide Range of Exciting Events.</h1>
         </div>
-        <div className="flex md:flex-row flex-col gap-4 justify-center items-center mt-20">
-          <Card />
-          <Card />
-          <Card />
+        <div className="flex md:flex-row flex-col gap-8 justify-center items-center mt-20 md:p-20 p-8">
+        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl card1 text-white">
+            <h1 className="font-bold md:text-[37px]">Formal events</h1>
+            <p>Elevating Experiences with Distinguished Events</p>
+            <button className="bg-white p-2 rounded-3xl text-black">Explore More</button>
+            <img src={img1} alt="" srcset="" />
+        </div>
+        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl card3">
+            <h1 className="font-bold md:text-[37px]">Formal events</h1>
+            <p>Elevating Experiences with Distinguished Events</p>
+            <button className="bg-white p-2 rounded-3xl">Explore More</button>
+            <img src={img1} alt="" srcset="" />
+        </div>
+        <div className="flex flex-col justify-center items-center text-center border-2 border-black p-4 pt-8 gap-6 rounded-2xl card2 text-white ">
+            <h1 className="font-bold md:text-[37px]">Formal events</h1>
+            <p>Elevating Experiences with Distinguished Events</p>
+            <button className="bg-white p-2 rounded-3xl text-black">Explore More</button>
+            <img src={img1} alt="" srcset="" />
+        </div>
+        
         </div>
         <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center">
           <img src={leaf1} alt="" />
@@ -53,10 +70,10 @@ function Eventspage() {
           <a href="https://facebook.com/edcbitmesra/"><FaFacebook className="w-14 h-14" /></a>
         </div>
       </div>
-      <div className="md:m-20 m-12">
-        <div className="flex flex-col justify-center items-center lg:m-4 p-4 lg:p-2 shadow-2xl rounded-2xl">
+      <div className="md:m-20 m-4 mt-20">
+        <div className="flex flex-col justify-center items-center lg:m-4 p-4 md:p-2 shadow-2xl rounded-2xl">
           <h1 className="font-bold text-[32px] uppercase">formal events</h1>
-          <div className="grid md:grid-cols-3 grid-cols-1 ">
+          <div className="flex md:flex-row flex-col justify-center ">
             <div className="event-card-container">
               <div className="event-card">
                 <img src={event1} alt="Event" className="event-image" />
@@ -96,7 +113,9 @@ function Eventspage() {
                 </div>
               </div>
             </div>
-            <div className="event-card-container">
+          </div>
+          <div className="flex md:flex-row flex-col justify-center">
+          <div className="event-card-container">
               <div className="event-card">
                 <img src={event4} alt="Event" className="event-image" />
                 <div className="event-details">
@@ -125,10 +144,10 @@ function Eventspage() {
           </div>
         </div>
       </div>
-      <div className="md:m-20 m-12">
-      <div className="flex flex-col justify-center items-center lg:m-4 p-4q lg:p-2 shadow-2xl rounded-2xl">
+      <div className="md:m-20 m-4 mt-20">
+      <div className="flex flex-col justify-center items-center lg:m-4 p-4q lg:p-2 shadow-2xl rounded-2xl text-center">
       <h1 className="font-bold text-[32px] uppercase">semi-formal events</h1>
-          <div className="grid md:grid-cols-3 grid-cols-1 ">
+          <div className="flex md:flex-row flex-col justify-center">
             <div className="event-card-container">
               <div className="event-card">
                 <img src={event7} alt="Event" className="event-image" />
@@ -168,6 +187,8 @@ function Eventspage() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex md:flex-row flex-col justify-center">
             <div className="event-card-container">
               <div className="event-card">
                 <img src={event10} alt="Event" className="event-image" />
@@ -181,13 +202,13 @@ function Eventspage() {
                 </div>
               </div>
             </div>
-          </div>
+            </div>
         </div>
       </div>
-      <div className="md:m-12 m-12">
+      <div className="md:m-12 m-4 mt-20">
       <div className="flex flex-col justify-center items-center lg:m-4 p-4 lg:p-2  shadow-2xl rounded-2xl">
       <h1 className="font-bold text-[32px] uppercase">informal events</h1>
-          <div className="grid md:grid-cols-3 grid-cols-1 ">
+          <div className="flex md:flex-row flex-col justify-center ">
             <div className="event-card-container">
               <div className="event-card">
                 <img src={event12} alt="Event" className="event-image" />
@@ -227,7 +248,9 @@ function Eventspage() {
                 </div>
               </div>
             </div>
-            <div className="event-card-container">
+          </div>
+          <div className="flex md:flex-row flex-col justify-center ">
+          <div className="event-card-container">
               <div className="event-card">
                 <img src={event5} alt="Event" className="event-image" />
                 <div className="event-details">
