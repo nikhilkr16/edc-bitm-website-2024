@@ -5,6 +5,7 @@ import { AiFillLike } from "react-icons/ai";
 import blob from "../assets/blobs.png"
 import blobR from "../assets/blobR.png"
 
+
 function About_us() {
   return (
     <div className='w-screen p-4'>
