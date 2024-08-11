@@ -12,7 +12,7 @@ function Hero() {
    return (
       <div className="pt-24">
          <div className="glass-morphic lg:m-20 p-4 lg:p-12 shadow-2xl rounded-2xl">
-            <div className='flex md:flex-row '>
+            <div className='flex md:flex-row flex-col'>
                <div>
                   <div className='w-3/5 hero-2'>
                      <div className="flex flex-column justify-start items-center">
@@ -26,7 +26,7 @@ function Hero() {
                   </div>
                   <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                      <div className='w-full h-1/2 flex mt-2 flex-col gap-8'>
-                        <div className='flex items-center justify-start pt-5 pl-20 gap-24 hero-3'>
+                        <div className='flex items-center justify-center pt-5 pl-20 gap-24 hero-3'>
                            <div className='w-24 flex flex-col items-center text-xl font-semibold'>
                               <div className=''><span className=' text-3xl decoration-yellow-300'> <img src={img1} alt="" /> </span></div>
                               <h1 >{counterOn && <CountUp start={0} end={30} duration={2} delay={0.25} />}+</h1>
@@ -38,7 +38,7 @@ function Hero() {
                               <h5 className=''>Events</h5>
                            </div>
                         </div>
-                        <div className='flex gap-24 hero-3 items-center justify-start pl-20 text-xl font-semibold'>
+                        <div className='flex gap-24 hero-3 items-center justify-center pl-20 text-xl font-semibold'>
                            <div className=' w-24  flex flex-col items-center'>
                               <div className='text-3xl'> <img src={img3} alt="" /> </div>
                               <h1 > {counterOn && <CountUp start={0} end={80} duration={2} delay={0.25} />}+</h1>
