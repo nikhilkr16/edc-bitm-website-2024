@@ -12,6 +12,8 @@ function Hero() {
    return (
       <div className="pt-24">
          <div className="glass-morphic lg:m-20 p-4 lg:p-12 shadow-2xl rounded-2xl">
+            <div className='flex md:flex-row '>
+            <div>
             <div className='w-3/5 hero-2'>
                   <div className="flex flex-column justify-start items-center">
                      <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
@@ -22,7 +24,7 @@ function Hero() {
                   </div>
                <h3 className='text-start content1 mb-4'>With a team of dedicated experts and passionate empowering entrepreneurs, we bring a wealth of experience and knowledge to every proposal. Our expertise helps to enhance one's fostered growth and supports each entrepreneurial journey.</h3>
             </div>
-            <div className='flex md:flex-row flex-col justify-between items-center'>
+            
                <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                   <div className='w-full h-1/2 flex mt-2 flex-col gap-8'>
                      <div className='flex items-center justify-start pt-5 pl-20 gap-24 hero-3'>
@@ -51,7 +53,9 @@ function Hero() {
                      </div>
                   </div>
                </ScrollTrigger>
-               <div className='w-2/5 p-8 flex flex-col gap-6 justify-end items-end hero-2'>
+               </div>
+               
+               <div className='w-full flex flex-col gap-6 hero-2'>
                   <img className='w-full h-full rounded-xl' src="https://images.unsplash.com/photo-1632914146475-bfe6fa6b2a12?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                   <img className=' w-full h-full rounded-xl' src="https://plus.unsplash.com/premium_photo-1667516621165-d2b848cc7587?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                </div>
