@@ -1,5 +1,6 @@
 import React from "react";
 import "./speakercards.css";
+import {Link} from 'react-router-dom';
 
 function Speakers() {
     return (
@@ -72,7 +73,9 @@ function Speakers() {
               </div>
             </div>
             <div className="flex flex-col justify-center items-center">
+            <Link spy={true} smooth={true} to="/Speakers">
               <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]">Know More</button>
+              </Link>
             </div>
           </div>
       </>

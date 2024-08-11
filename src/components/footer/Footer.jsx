@@ -23,15 +23,21 @@ const Footer = () => {
 								of youth.
 							</p>
 							<div className="socialmedia ml-4">
-								<p>
+                <a href="https://www.facebook.com/edcbitmesra">
+								<button>
 									<FaFacebook className="facebookIcon" />
-								</p>
-								<p>
+                  </button>
+                  </a>
+                  <a href="https://www.instagram.com/edcbitmesra">
+								<button>
 									<FaInstagram className="instagramIcon"></FaInstagram>
-								</p>
-								<p>
+                  </button>
+                  </a>
+                  <a href="https://www.linkedin.com/company/edcbitmesra/mycompany/">
+								<button>
 									<FaLinkedinIn className="linkedinIcon"></FaLinkedinIn>
-								</p>
+                  </button>
+                  </a>
 							</div>
 						</div>
 					</div>
