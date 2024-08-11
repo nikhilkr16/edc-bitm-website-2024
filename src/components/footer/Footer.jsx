@@ -45,13 +45,13 @@ const Footer = () => {
 						<div className="sb__footer-links_div md:w-48  ">
 							<h3>QUICK LINK</h3>
 							<a href="/Dean">
-								<p>Dean of RIE</p>
+								<p className="hover:text-yellow-400">Dean of RIE</p>
 							</a>
 							<a href="/FA">
-								<p>Faculty Advisor</p>
+								<p className="hover:text-yellow-400">Faculty Advisor</p>
 							</a>
 							<a href="/hall of Fame">
-								<p>Hall of Fame</p>
+								<p className="hover:text-yellow-400">Hall of Fame</p>
 							</a>
 						</div>
 
@@ -67,13 +67,13 @@ const Footer = () => {
 										href="mailto: president.edc@bitmesra.ac.in"
 										className="block mb-2 hover:scale-100"
 									>
-										<p>President</p>
+										<p className="hover:text-yellow-400">President</p>
 									</a>
 									<a
 										href="mailto:team.edc@bitmesra.ac.in"
 										className="block mb-2 "
 									>
-										<p>EDC Team</p>
+										<p className="hover:text-yellow-400">EDC Team</p>
 									</a>
 								</div>
 								<div className="">
@@ -82,13 +82,13 @@ const Footer = () => {
 										href="mailto:btech10947.22@bitmesra.ac.in"
 										className="block mb-2 "
 									>
-										<p>Pranav Raj Srivastav</p>
+										<p className="hover:text-yellow-400">Pranav Raj Srivastav</p>
 									</a>
 									<a
 										href="mailto:btech10731.22@bitmesra.ac.in"
 										className="block mb-2"
 									>
-										<p>Anshuman Tomar</p>
+										<p className="hover:text-yellow-400">Anshuman Tomar</p>
 									</a>
 								</div>
 								<div className="">
@@ -98,21 +98,21 @@ const Footer = () => {
 										href="mailto:nikhilkr3000@gmail.com "
 										className="block mb-2 "
 									>
-										<p>Nikhil Kumar</p>
+										<p className="hover:text-yellow-400">Nikhil Kumar</p>
 									</a>
 
 									<a
 										href="mailto: vaibhavkgupta.2004@gmail.com"
 										className="block mb-2"
 									>
-										<p>Vaibhav Kr Gupta</p>
+										<p className="hover:text-yellow-400">Vaibhav Kr Gupta</p>
 									</a>
 
 									<a
 										href="mailto: btech10962.22@bitmesra.ac.in"
 										className="block mb-2 "
 									>
-										<p>Krishnanshu Jha</p>
+										<p className="hover:text-yellow-400">Krishnanshu Jha</p>
 									</a>
 								</div>
 							</div>
