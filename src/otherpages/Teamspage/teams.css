@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.mains{
+    background-color: rgb(235, 235, 235);
+}
+
+*{
+    font-family: inter;
+    
+}
+
 .sir{
-    border-radius: 500px;
-    border: 1px solid #000;
-    width: 300px;
-height: 280px;
-flex-shrink: 0;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
 
 }
 
 .prof{
     display: flex;
-width: 350px;
-height: 470px;
+width: 400px;
+height: 540px;
 padding: 72px 54px;
 justify-content: center;
 align-items: flex-start;
@@ -25,7 +36,29 @@ backdrop-filter: blur(8.699999809265137px);
 -webkit-backdrop-filter: blur(10px);
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 margin-bottom: 3rem;
+
 }
+
+.prof:hover .overlay-text{
+    opacity: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: small;
+    margin-bottom: 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+
+
 
 .text{
     color: rgba(0, 0, 0, 0.50);
@@ -35,6 +68,12 @@ font-size: 30px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.prof:hover .name{
+    color: rgb(0, 0, 0);
+    transform: translateY(-05px);
+    transition: transform 0.3s ease;
 }
 
 @media screen and (max-width:750px) {
