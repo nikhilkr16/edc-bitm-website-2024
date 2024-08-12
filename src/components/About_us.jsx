@@ -2,15 +2,12 @@ import React from 'react'
 import { FaGlobe } from "react-icons/fa";
 import { BsFileBarGraph } from "react-icons/bs";
 import { AiFillLike } from "react-icons/ai";
-import blob from "../assets/blobs.png"
-import blobR from "../assets/blobR.png"
-
 
 function About_us() {
   return (
     <div className='w-screen p-4'>
       <div className='h-56 w-full bg-transparent flex justify-center items-center absolute -bottom-36 about_us1'>
-        <div className=' h-56 w-2/3 bg-white shadow-2xl p-7 rounded-xl flex about-morphic about_us2 '>
+        <div className='h-56 w-2/3 bg-white shadow-2xl p-7 rounded-xl flex about-morphic about_us2 '>
           <div className='w-2/3 pr-14 about_us3'>
             <div> <h3 className=' text-xl font-bold mb-2 '><span className='bg-[#FED853] pb-1 pt-1 pl-1'>Ab</span>out Us</h3></div>
             <div>
