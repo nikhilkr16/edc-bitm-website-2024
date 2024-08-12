@@ -25,6 +25,8 @@ import Socials from "../../components/socials/socials"
 import iatweblogo from '../Eventspage/iatweblogo.png'
 import eventsbg from '../Eventspage/eventsbg.png'
 import img1 from '../Eventspage/img1.png'
+import roadmap from '../Eventspage/roadmap.png'
+import prize from '../Eventspage/prize.png'
 
 function Eventspage() {
   return (
@@ -50,6 +52,30 @@ function Eventspage() {
             </div>
         </div>
         </div>
+        <div className="glass-morphic lg:m-20 m-4 p-4 lg:p-12 shadow-2xl rounded-2xl ">
+            <div className="flex flex-row justify-start items-center">
+                <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
+                <h1 className="text-[25px] ml-[-25px] font-bold">Road Map</h1>
+            </div>
+            <div className="md:px-28 flex flex-col justify-center md:gap-20 gap-8 text-center">
+            <div className="mt-12">
+                <img src={roadmap} alt="" />
+            </div>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum accusantium quae unde, dolor odio veritatis tempora ipsum! Laborum ab earum molestiae! Quod mollitia assumenda quidem ex, sequi enim incidunt.</p>
+            </div>
+            </div>
+            
+        </div>
+
+      <div className="flex flex-col justify-center items-center gap-4 mt-8 p-8 text-center">
+        <div>
+          <h1 className="text-5xl font-bold">Win Exciting Prizes!</h1>
+        </div>
+        <div>
+          <img src={prize} alt="" />
+        </div>
+      </div>
       
       <div className="bg-white w-screen overflow-hidden mt-32">
         <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center">
