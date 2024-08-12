@@ -48,7 +48,9 @@ function Eventspage() {
               <p>Innovate-a-Thon is an annual event hosted by the Entrepreneurship Development Cell at BIT Mesra, offering budding innovators a chance to explore their technical talents and create something innovative during a 24-hour product development hackathon. With additional speaker sessions and workshops, the event aims to cultivate ideas and discussions, ultimately making a significant impact and driving transformative change.</p>
             </div>
             <div className="flex justify-center mt-4">
+              <a href="https://unstop.com/hackathons/innovate-a-thon-20-bit-mesra-ranchi-1112526?ref=digitomize&utm_source=digitomize">
               <button className="p-4 rounded-xl bg-[#FED853] font-bold">Register Now!</button>
+              </a>
             </div>
         </div>
         </div>
@@ -68,7 +70,7 @@ function Eventspage() {
             
         </div>
 
-      <div className="flex flex-col justify-center items-center gap-4 mt-8 p-8 text-center">
+      <div className="flex flex-col justify-center items-center gap-4 mt-20 p-8 text-center">
         <div>
           <h1 className="text-5xl font-bold">Win Exciting Prizes!</h1>
         </div>
@@ -77,7 +79,7 @@ function Eventspage() {
         </div>
       </div>
       
-      <div className="bg-white w-screen overflow-hidden mt-32">
+      <div className="bg-white w-screen overflow-hidden mt-20">
         <div className="flex lg:flex-row bg-white p-20 text-center justify-center items-center">
           <img src={leaf1} alt="" className="md:h-56"/>
           <p className="md:text-[32px]">Our Events are more than just gatherings. They are opportunities to transform your entrepreneurial journey. Unleash the Entrepreneur in you and connect with us for the latest updates and exclusive announcements.!</p>
