@@ -68,7 +68,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>STOCK STOCISM</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -81,7 +80,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>STARTUP MELA</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -94,7 +92,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>INNOVATE-A-THON</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -109,7 +106,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>IPL AUCTION</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -122,7 +118,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>MARKETING SPINOFF</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
