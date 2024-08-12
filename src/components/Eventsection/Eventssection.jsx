@@ -2,8 +2,9 @@ import React from "react";
 import { SlCalender } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
 import { ImTarget } from "react-icons/im";
-import img from '../Eventsection/eventsicon.png'
-import {Link} from 'react-router-dom';
+import img1 from '../Eventsection/E1.jpg';
+import img2 from '../Eventsection/E2.jpg';
+import img3 from '../Eventsection/E3.jpg';
 
 function Eventsection() {
     return(
@@ -19,7 +20,7 @@ function Eventsection() {
                 <div className="flex md:flex-row flex-col justify-center items-center mb-4 md:gap-2 gap-4">
                 <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                 <div>
-                    <img src={img} alt="" srcset="" className="rounded-full" />
+                    <img src={img1} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold md:text-[20px]">Event</h1>
                 </div>
             <div className="flex flex-col justify-center items-center text-center mt-4">
@@ -42,7 +43,7 @@ function Eventsection() {
             </div>
             <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                 <div>
-                    <img src={img} alt="" srcset="" className="rounded-full" />
+                    <img src={img2} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold md:text-[20px]">Event</h1>
                 </div>
             <div className="flex flex-col justify-center items-center text-center mt-4">
@@ -65,7 +66,7 @@ function Eventsection() {
             </div>
             <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                 <div>
-                    <img src={img} alt="" srcset="" className="rounded-full" />
+                    <img src={img3} alt="" srcset="" className="rounded-full" />
                 <h1 className="font-bold md:text-[20px]">Event</h1>
                 </div>
             <div className="flex flex-col justify-center items-center text-center mt-4">
@@ -87,9 +88,7 @@ function Eventsection() {
             </div>
             </div>   
                 </div>
-                <Link spy={true} smooth={true} to="/Events">
                 <button className="p-4 rounded-xl bg-[#FED853] font-bold">Know More</button>
-                </Link>
             </div>
         </div>
     )

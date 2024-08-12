@@ -33,22 +33,22 @@ function Eventspage() {
     <>
       <div className="h-auto w-full text-black">
         <div>
-        <img src= {eventsbg} alt="" />
-        {/* <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center"> */}
+          <img src={eventsbg} alt="" />
+          {/* <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center"> */}
           {/* <h1 className="lg:px-48">Experience Exclusivity : Join Premium Club Events</h1> */}
-        {/* </div> */}
+          {/* </div> */}
         </div>
         <div className="flex justify-center recbox1">
-        <div className="bg-slate-500 w-[80%] p-8">
-        <div className="flex flex-row justify-start items-center">
-                <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
-                <h1 className="text-[25px] ml-[-25px] font-bold">About Innovate-A-Thon</h1>
+          <div className="glass-morphism w-[80%] p-8">
+            <div className="flex flex-row justify-start items-center">
+              <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
+              <h1 className="text-[25px] ml-[-25px] font-bold">About Innovate-A-Thon</h1>
             </div>
             <div className="mt-12">
-                <p>Innovate-a-Thon is an annual event hosted by the Entrepreneurship Development Cell at BIT Mesra, offering budding innovators a chance to explore their technical talents and create something innovative during a 24-hour product development hackathon. With additional speaker sessions and workshops, the event aims to cultivate ideas and discussions, ultimately making a significant impact and driving transformative change.</p>
+              <p>Innovate-a-Thon is an annual event hosted by the Entrepreneurship Development Cell at BIT Mesra, offering budding innovators a chance to explore their technical talents and create something innovative during a 24-hour product development hackathon. With additional speaker sessions and workshops, the event aims to cultivate ideas and discussions, ultimately making a significant impact and driving transformative change.</p>
             </div>
             <div className="flex justify-center mt-4">
-            <button className="p-4 rounded-xl bg-[#FED853] font-bold">Register Now!</button>
+              <button className="p-4 rounded-xl bg-[#FED853] font-bold">Register Now!</button>
             </div>
         </div>
         </div>
