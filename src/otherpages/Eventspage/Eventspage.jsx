@@ -29,8 +29,8 @@ function Eventspage() {
         alt=""
         className="block md:hidden"
       />
-        <div className="flex justify-center recbox1">
-          <div className="glass-morphism sm:w-[80%] p-8">
+        <div className="flex justify-center recbox1 md:p-[5rem] p-4">
+          <div className="glass-morphism md:w-[80%] w-full md:p-8 p-4">
             <div className="flex flex-row justify-start items-center">
               <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
               <h1 className="text-[25px] ml-[-25px] font-bold">About Innovate-A-Thon</h1>
@@ -45,7 +45,7 @@ function Eventspage() {
             </div>
           </div>
         </div>
-        <div className="glass-morphic lg:m-20 mt-10 p-4 lg:p-12 shadow-2xl rounded-2xl ">
+        <div className="glass-morphic lg:m-20 mt-32 p-4 lg:p-12 shadow-2xl rounded-2xl ">
           <div className="flex flex-row justify-start items-center">
             <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
             <h1 className="text-[25px] ml-[-25px] font-bold">Road Map</h1>
