@@ -1,5 +1,4 @@
 import React from "react"
-//import Card from "./Card"
 import '../Eventspage/Eventspage.css'
 import event1 from '../Eventspage/Image(EVENT)/event1.png'
 import event3 from '../Eventspage/Image(EVENT)/event3.png'
@@ -13,22 +12,22 @@ import Socials from "../../components/socials/socials"
 import eventsbg from '../Eventspage/eventsbg.png'
 import roadmap from '../Eventspage/roadmap.png'
 import prize from '../Eventspage/prize.png'
-import mobilebg from '../Eventspage/mobilebg.png'
+import mobilebg from '../Eventspage/mobilebg.jpeg'
 
 function Eventspage() {
   return (
     <>
       <div className="eventsbg h-auto w-full text-black">
-      <img
-        src={eventsbg}
-        alt=""
-        className="hidden md:block"
-      />
-      <img
-        src={mobilebg}
-        alt=""
-        className="block md:hidden"
-      />
+        <img
+          src={eventsbg}
+          alt=""
+          className="hidden md:block"
+        />
+        <img
+          src={mobilebg}
+          alt=""
+          className="block md:hidden"
+        />
         <div className="flex justify-center recbox1 md:p-[5rem] p-4">
           <div className="glass-morphism md:w-[80%] w-full md:p-8 p-4">
             <div className="flex flex-row justify-start items-center">
