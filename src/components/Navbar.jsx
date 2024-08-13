@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaTimes } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import logo from "../assets/edclogo3d.png";
@@ -10,7 +10,7 @@ const NavBar = () => {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-      }, []);
+    }, []);
 
     const [click, setClick] = useState(false);
     const [scroll, setScroll] = useState(false);
@@ -26,6 +26,11 @@ const NavBar = () => {
             setScroll(false);
         }
     };
+    const [activeLink, setActiveLink] = useState('');
+
+    const handleLinkClick = (link) => {
+        setActiveLink(link);
+    }
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
@@ -85,20 +90,35 @@ const NavBar = () => {
                     <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
                         <div className="flex-10">
                             <ul className="flex gap-4 lg:gap-8 text-[16px] lg:text-[18px]">
-                                <Link spy={true} smooth={true} to="/">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Home</li>
+                                <Link
+                                    to="/"
+                                    className={`hover:text-yellow-400 transition cursor-pointer ${activeLink === '/' ? 'text-yellow-400' : ''}`}
+                                    onClick={() => handleLinkClick('/')}>
+                                    <li>Home</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="/Events">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Events</li>
+                                <Link
+                                    to="/Events"
+                                    className={`hover:text-yellow-400 transition cursor-pointer ${activeLink === '/Events' ? 'text-yellow-400' : ''}`}
+                                    onClick={() => handleLinkClick('/Events')}>
+                                    <li>Events</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="/Speakers">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Speakers</li>
+                                <Link
+                                    to="/Speakers"
+                                    className={`hover:text-yellow-400 transition cursor-pointer ${activeLink === '/Speakers' ? 'text-yellow-400' : ''}`}
+                                    onClick={() => handleLinkClick('/Speakers')}>
+                                    <li>Speakers</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="/Team">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">Team</li>
+                                <Link
+                                    to="/Team"
+                                    className={`hover:text-yellow-400 transition cursor-pointer ${activeLink === '/Team' ? 'text-yellow-400' : ''}`}
+                                    onClick={() => handleLinkClick('/Team')}>
+                                    <li>Team</li>
                                 </Link>
-                                <Link spy={true} smooth={true} to="/App">
-                                    <li className="hover:text-yellow-400 transition cursor-pointer">App</li>
+                                <Link
+                                    to="/App"
+                                    className={`hover:text-yellow-400 transition cursor-pointer ${activeLink === '/App' ? 'text-yellow-400' : ''}`}
+                                    onClick={() => handleLinkClick('/App')}>
+                                    <li>App</li>
                                 </Link>
                             </ul>
                         </div>
