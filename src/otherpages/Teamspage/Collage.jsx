@@ -25,8 +25,12 @@ function Collage() {
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
 
         <div className="relative z-20 flex flex-col lg:flex-row h-full">
-          <div className="flex-none lg:w-1/3 lg:h-full md:h-1/4 h-1/6 p-4 pt-28 flex items-center justify-center">
-            <h1 className="text-4xl font-bold mb-6 items-center text-white lg:leading-[6rem] leading-[3rem] lg:text-[5rem] text-[3rem] pb-12">
+
+          <div className="flex-none lg:w-1/3 lg:h-full md:h-1/4 h-1/6 p-4 pt-28 flex items-center justify-center mt-80 md:mt-0 ">
+
+
+            <h1 className="text-4xl font-bold mb-6 items-center text-white lg:leading-[6rem] leading-[3rem] lg:text-[5rem] text-[3rem] pb-12
+          ">
               <span className="block">MEET</span>
               <span className="block">THE</span>
               <span className="block">TEAM</span>
@@ -35,6 +39,8 @@ function Collage() {
 
           <div className=" lg:w-2/3 relative p-2 flex items-center justify-center overflow-hidden opacity-0 md:opacity-100">
             <div className="relative w-[45em] h-[35em]">
+
+
               <img src={one} alt="Image 1" className="absolute w-[18em] h-[16em] top-[7.125em] left-[12.5em] object-cover rounded-[1.25em]" />
 
               <img src={seven} alt="Image 1" className="absolute w-[18em] h-[8.25em] top-[24em] left-[12.5em] object-cover rounded-[1.25em]" />
