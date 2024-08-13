@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import { SlCalender } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
 import { ImTarget } from "react-icons/im";
@@ -91,7 +92,9 @@ function Eventsection() {
             </div>
             </div>   
                 </div>
+                <Link spy={true} smooth={true} to="/Events">
                 <button className="p-4 rounded-xl bg-[#FED853] font-bold">Know More</button>
+                </Link>
             </div>
         </div>
     )

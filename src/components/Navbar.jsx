@@ -8,6 +8,9 @@ import "aos/dist/aos.css";
 
 const NavBar = () => {
     useEffect(() => {
+        window.scrollTo(0, 0);
+      }, ["/Events"]);
+    useEffect(() => {
         AOS.init();
         AOS.refresh();
       }, []);

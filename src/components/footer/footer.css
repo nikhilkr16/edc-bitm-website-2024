@@ -1,5 +1,5 @@
 .section__padding {
-    padding: 4rem 4rem 0 4rem; 
+    padding: 4rem 4rem 0 4rem;
 }
 
 .footer{
@@ -9,7 +9,7 @@
 
 .sb__footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
    
 }
 
@@ -28,10 +28,7 @@
 .sb__footer-links_div{
     width: 150px;
     margin: 2rem 1rem 1rem 1rem;
-    display: flex;
    
-    justify-content: flex-start;
-    flex-direction: column;
     color: white;
 }
 .sb__footer-links_edc{
