@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from 'react-router-dom';
 import { SlCalender } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
 import { ImTarget } from "react-icons/im";
@@ -24,11 +23,11 @@ function Eventsection() {
                 <div className="flex md:flex-row flex-col justify-center items-center mb-4 md:gap-2 gap-4">
                     <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                         <div>
-                            <img src={img1} alt="" srcset="" className="rounded-full" />
-                            <h1 className="font-bold md:text-[20px]">E-SUMMIT</h1>
+                            <img src={img3} alt="" srcset="" className="rounded-full" />
+                            <h1 className="font-bold mt-4 md:text-[25px]">Innovate-A-Thon</h1>
                         </div>
                         <div className="flex flex-col justify-center items-center text-center mt-4">
-                            <div className="grid grid-cols-3">
+                            {/* <div className="grid grid-cols-3">
                                 <div className="flex md:flex-row flex-col justify-center items-center">
                                     <IoCalendarOutline />
                                     <h1 className="font-bold">Date</h1>
@@ -41,17 +40,40 @@ function Eventsection() {
                                     <CiLocationOn />
                                     <h1 className="font-bold">Venue</h1>
                                 </div>
-                            </div>
-                            <p>Premier Entrepreneurial Fest</p>
+                            </div> */}
+                            <p className="text-[18px]">Premier Entrepreneurial Fest</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
+                        <div>
+                            <img src={img1} alt="" srcset="" className="rounded-full" />
+                            <h1 className="font-bold mt-4 md:text-[25px]">E-Summit</h1>
+                        </div>
+                        <div className="flex flex-col justify-center items-center text-center mt-4">
+                            {/* <div className="grid grid-cols-3">
+                                {/* <div className="flex md:flex-row flex-col justify-center items-center">
+                                    <IoCalendarOutline />
+                                    <h1 className="font-bold">Date</h1>
+                                </div>
+                                <div className="flex md:flex-row flex-col justify-center items-center">
+                                    <IoTimerOutline />
+                                    <h1 className="font-bold">Time</h1>
+                                </div>
+                                <div className="flex md:flex-row flex-col justify-center items-center">
+                                    <CiLocationOn />
+                                    <h1 className="font-bold">Venue</h1>
+                                </div> }
+                            </div> */}
+                            <p className="text-[18px]">Cultivate inventive startups</p>
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
                         <div>
                             <img src={img2} alt="" srcset="" className="rounded-full" />
-                            <h1 className="font-bold md:text-[20px]">BIT NISHAN</h1>
+                            <h1 className="font-bold mt-4 md:text-[25px]">Bit NISHAN</h1>
                         </div>
                         <div className="flex flex-col justify-center items-center text-center mt-4">
-                            <div className="grid grid-cols-3">
+                            {/* <div className="grid grid-cols-3">
                                 <div className="flex md:flex-row flex-col justify-center items-center">
                                     <IoCalendarOutline />
                                     <h1 className="font-bold">Date</h1>
@@ -64,37 +86,12 @@ function Eventsection() {
                                     <CiLocationOn />
                                     <h1 className="font-bold">Venue</h1>
                                 </div>
-                            </div>
-                            <p>Cultivate inventive startups</p>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-center items-center text-center md:p-8 rounded-2xl ">
-                        <div>
-                            <img src={img3} alt="" srcset="" className="rounded-full" />
-                            <h1 className="font-bold md:text-[20px]">INNOVATE-A-THON</h1>
-                        </div>
-                        <div className="flex flex-col justify-center items-center text-center mt-4">
-                            <div className="grid grid-cols-3">
-                                <div className="flex md:flex-row flex-col justify-center items-center">
-                                    <IoCalendarOutline />
-                                    <h1 className="font-bold">Date</h1>
-                                </div>
-                                <div className="flex md:flex-row flex-col justify-center items-center">
-                                    <IoTimerOutline />
-                                    <h1 className="font-bold">Time</h1>
-                                </div>
-                                <div className="flex md:flex-row flex-col justify-center items-center">
-                                    <CiLocationOn />
-                                    <h1 className="font-bold">Venue</h1>
-                                </div>
-                            </div>
-                            <p>Encourage problem-solving</p>
+                            </div> */}
+                            <p className="text-[18px]">Encourage problem-solving</p>
                         </div>
                     </div>
                 </div>
-                <Link spy={true} smooth={true} to="/Events">
                 <button className="p-4 rounded-xl bg-[#FED853] font-bold">Know More</button>
-                </Link>
             </div>
         </div>
     )

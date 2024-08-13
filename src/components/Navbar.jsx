@@ -68,11 +68,6 @@ const NavBar = () => {
         display: none;
     }
 
-    .icon {
-        height: 2rem;
-        width: 2rem;
-    }
-
     @media (max-width: 768px) {
         .nav-btn {
             display: block;
