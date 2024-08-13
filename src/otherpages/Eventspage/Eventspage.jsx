@@ -32,9 +32,9 @@ function Eventspage() {
           <div className="glass-morphism md:w-[80%] w-full md:p-8 p-4">
             <div className="flex flex-row justify-start items-center">
               <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
-              <h1 className="text-[25px] ml-[-25px] font-bold">About Innovate-A-Thon</h1>
+              <h1 className="text-[25px] ml-[-30px] font-bold">About Innovate-A-Thon</h1>
             </div>
-            <div className="mt-12 font-normal">
+            <div className="mt-5 font-normal">
               <p className="text-base">Innovate-a-Thon is an annual event hosted by the Entrepreneurship Development Cell at BIT Mesra, offering budding innovators a chance to explore their technical talents and create something innovative during a 24-hour product development hackathon. With additional speaker sessions and workshops, the event aims to cultivate ideas and discussions, ultimately making a significant impact and driving transformative change.</p>
             </div>
             <div className="flex justify-center mt-4">

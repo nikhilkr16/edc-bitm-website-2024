@@ -8,41 +8,36 @@ function Slidermain() {
 
     const handleClick = () => {
         window.open(
-          "https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing",
-          "_blank",
-          "noopener,noreferrer"
+            "https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing",
+            "_blank",
+            "noopener,noreferrer"
         );
-      };
-    
-    return(
+    };
+
+    return (
         <div className="w-screen">
-        <div className="glass-morphic lg:m-20 p-4 lg:p-12 m-4 shadow-2xl rounded-2xl my-16">
-            <div className="flex flex-row justify-start items-center">
-                <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
-                <h1 className="text-[25px] ml-[-30px] font-bold">Gallery</h1>
-            </div>
-            <div className="mt-12">
-                <h1 className="text-[35px] font-bold">Captured Moments</h1>
-            </div>
-            <div className="flex justify-center items-center mt-8 md:px-32">
-                    <Slider/> 
-            </div>
+            <div className="glass-morphic lg:m-20 p-4 lg:p-12 m-4 shadow-2xl rounded-2xl my-16">
+                <div className="flex flex-row justify-start items-center">
+                    <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
+                    <h1 className="text-[25px] ml-[-30px] font-bold">Gallery</h1>
+                </div>
+                <div className="mt-12">
+                    <h1 className="text-[35px] font-bold">Captured Moments</h1>
+                </div>
+                <div className="flex justify-center items-center mt-8 md:px-32">
+                    <Slider />
+                </div>
 
-            <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center">
 
-            <a href="https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing" target="_blank">
-            <button className="bg-[#FED853] font-inter text-black my-3 md:my-0 py-2 px-4 rounded hover:font-bold transition-all duration-300 w-30 h-10"
-            onClick={handleClick}>
-        View More
-      </button>
-            </a>
-      
-    </div>
-            
-        </div>
+                    <a href="https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing" target="_blank">
+                        <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]" onClick={handleClick}>View More</button>
+                    </a>
+                </div>
+            </div>
         </div>
     )
-    
+
 }
 
 export default Slidermain
