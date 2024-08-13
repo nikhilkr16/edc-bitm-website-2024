@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import edclogo from "../../assets/edclogo.png";
+import edclogo from "../../assets/edclogo3d.png";
 import { Link } from "react-router-dom";
 
 import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
@@ -11,33 +11,33 @@ const Footer = () => {
 			<div className="sb_footer section_padding flex flex-col justify-center items-center">
 				<div className="sb__footer-links flex md:gap-40 mt-12">
 					<div className="sb__footer-links_edc scale-125">
-						<div className="sb__footer-links_edc_upper">
-							<p>
-								<img src={edclogo} className="img01" alt="" />{" "}
-							</p>
-							<h4>Entrepreneurship Development Cell</h4>
-						</div>
+						<Link to="/">
+							<div className="sb__footer-links_edc_upper">
+								<img src={edclogo} className="logo3d" alt="" />{" "}
+								<h4>Entrepreneurship Development Cell</h4>
+							</div>
+						</Link>
 						<div className="para ml-4">
 							<p>
 								Our aim is to ignite the flame of entrepreneurship in the minds
 								of youth.
 							</p>
 							<div className="socialmedia ml-4">
-                <a href="https://www.facebook.com/edcbitmesra">
-								<button>
-									<FaFacebook className="facebookIcon" />
-                  </button>
-                  </a>
-                  <a href="https://www.instagram.com/edcbitmesra">
-								<button>
-									<FaInstagram className="instagramIcon"></FaInstagram>
-                  </button>
-                  </a>
-                  <a href="https://www.linkedin.com/company/edcbitmesra/mycompany/">
-								<button>
-									<FaLinkedinIn className="linkedinIcon"></FaLinkedinIn>
-                  </button>
-                  </a>
+								<a href="https://www.facebook.com/edcbitmesra">
+									<button>
+										<FaFacebook className="facebookIcon" />
+									</button>
+								</a>
+								<a href="https://www.instagram.com/edcbitmesra">
+									<button>
+										<FaInstagram className="instagramIcon"></FaInstagram>
+									</button>
+								</a>
+								<a href="https://www.linkedin.com/company/edcbitmesra/">
+									<button>
+										<FaLinkedinIn className="linkedinIcon"></FaLinkedinIn>
+									</button>
+								</a>
 							</div>
 						</div>
 					</div>

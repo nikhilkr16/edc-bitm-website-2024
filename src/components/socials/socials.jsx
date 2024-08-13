@@ -18,7 +18,7 @@ function Socials() {
                             <span>Instagram</span>
                         </button>
                     </a>
-                    <a href="https://www.linkedin.com/company/edcbitmesra/mycompany/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/company/edcbitmesra/" target="_blank" rel="noopener noreferrer">
                         <button className="bg-white text-black border-4 border-[#FED853] px-10 py-4 flex items-center justify-center space-x-2 rounded-xl text-lg">
                             <FaLinkedinIn className="text-3xl" />
                             <span>LinkedIn</span>
