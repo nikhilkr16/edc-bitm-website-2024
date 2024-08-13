@@ -84,10 +84,10 @@ const Footer = () => {
             </div>
             <div className="sb__footer-links_div md:ml-40">
               <h3>Quick Links</h3>
-              <a href="https://www.linkedin.com/in/jeganathan-chockalingam-126003306/">
+              <a href="mailto:jeganathanc@bitmesra.ac.in">
                 <p className="hover:text-yellow-400">Dean of RIE</p>
               </a>
-              <a href="https://www.linkedin.com/in/vishal-h-shah-971bb29/">
+              <a href="mailto:vishalhshah@bitmesra.ac.in">
                 <p className="hover:text-yellow-400">Faculty Advisor</p>
               </a>
             </div>
@@ -98,7 +98,7 @@ const Footer = () => {
               <div className="flex flex-col md:flex-row justify-center gap-8">
                 <div className=" min-w-[150px] md:min-w-[100px]">
                   <h6>For Official</h6>
-                  <a href="mailto: president.edc@bitmesra.ac.in"
+                  <a href="mailto:president.edc@bitmesra.ac.in"
                     className="block mb-2 hover:scale-100">
                     <p className="hover:text-yellow-400">President</p>
                   </a>

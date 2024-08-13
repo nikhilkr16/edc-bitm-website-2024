@@ -24,7 +24,7 @@ function Hero() {
                      <div className="mt-6 mb-6">
                         <h1 className="text-[35px] font-bold">Our Stats</h1>
                      </div>
-                     <h3 className='text-start content1 mb-4'>With a team of dedicated experts and passionate empowering entrepreneurs, we bring a wealth of experience and knowledge to every proposal. Our expertise helps to enhance one's fostered growth and supports each entrepreneurial journey.</h3>
+                     <h3 className='text-start text-base mb-4'>With a team of dedicated experts and passionate empowering entrepreneurs, we bring a wealth of experience and knowledge to every proposal. Our expertise helps to enhance one's fostered growth and supports each entrepreneurial journey.</h3>
                   </div>
                   <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                      <div className='w-full h-1/2 flex mt-2 mb-10 flex-col gap-8'>
