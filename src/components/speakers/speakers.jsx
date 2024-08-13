@@ -1,6 +1,12 @@
 import React from "react";
 import "./speakercards.css";
 import {Link} from 'react-router-dom';
+import img_1 from "../speakers/karan.png";
+import img_2 from "../speakers/amit.png";
+import img_3 from "../speakers/aman.png";
+import img_4 from "../speakers/ravi.png";
+import img_5 from "../speakers/pawan.png";
+import img_6 from "../speakers/Rishabh.png";
 
 function Speakers() {
     return (
@@ -18,57 +24,57 @@ function Speakers() {
             <div className="flex relative overflow-hidden min-h-[400px] sm:h-auto">
               <div className="scrolling-cards flex space-x-6 animate-scroll1 mr-6">
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 1</h3>
-                  <p>Some content for card 1.</p>
+                <img src={img_1} alt="Karan" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Karan Bajaj</h3>
+                  <p className="text-center">Founder - WhiteHat Jr</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 2</h3>
-                  <p>Some content for card 2.</p>
+                <img src={img_2} alt="amit" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Amit Choudhary</h3>
+                  <p className="text-center">Founder - Lenskart</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 3</h3>
-                  <p>Some content for card 3.</p>
+                <img src={img_3} alt="aman" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Aman Dhattarwal</h3>
+                  <p className="text-center">Founder - Apni Kaksha</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 4</h3>
-                  <p>Some content for card 4.</p>
+                <img src={img_4} alt="ravi" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Ravi K Ranjan</h3>
+                  <p className="text-center">Ex Shark Tank</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 5</h3>
-                  <p>Some content for card 5.</p>
+                <img src={img_6} alt="Rishabh" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Rishabh Jain</h3>
+                  <p className="text-center">Labour Law Advisor</p>
                 </div>
               </div>
 
               <div className="scrolling-cards flex space-x-6 animate-scroll2">
               <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-              <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 1</h3>
-                  <p>Some content for card 1.</p>
+              <img src={img_1} alt="Karan" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Karan Bajaj</h3>
+                  <p className="text-center">Founder - WhiteHat Jr</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 2</h3>
-                  <p>Some content for card 2.</p>
+                <img src={img_2} alt="amit" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Amit Choudhary</h3>
+                  <p className="text-center">Founder - Lenskart</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 3</h3>
-                  <p>Some content for card 3.</p>
+                <img src={img_3} alt="aman" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Aman Dhattarwal</h3>
+                  <p className="text-center">Founder - Apni Kaksha</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 4</h3>
-                  <p>Some content for card 4.</p>
+                <img src={img_4} alt="ravi" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Ravi K Ranjan</h3>
+                  <p className="text-center">Ex Shark Tank</p>
                 </div>
                 <div className="card w-[275px] sm:w-[300px] h-[275px] sm:h-[275px] p-2 sm:p-4 bg-white bg-opacity-50 rounded-lg shadow-xl flex flex-col justify-end">
-                  <img src="https://picsum.photos/200" alt="placeholder image" />
-                  <h3 className="text-xl font-semibold mb-2">Card 5</h3>
-                  <p>Some content for card 5.</p>
+                <img src={img_6} alt="Rishabh" />
+                  <h3 className="text-xl font-semibold mb-2 text-center">Rishabh Jain</h3>
+                  <p className="text-center">Labour Law Advisor</p>
                 </div>
               </div>
             </div>
