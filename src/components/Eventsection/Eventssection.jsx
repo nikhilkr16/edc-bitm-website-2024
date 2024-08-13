@@ -1,13 +1,15 @@
 import React from "react";
-import { SlCalender } from "react-icons/sl";
-import { FaRegClock } from "react-icons/fa";
-import { ImTarget } from "react-icons/im";
-import { IoCalendarOutline } from "react-icons/io5";
-import { IoTimerOutline } from "react-icons/io5";
-import { CiLocationOn } from "react-icons/ci";
+// import { SlCalender } from "react-icons/sl";
+// import { FaRegClock } from "react-icons/fa";
+// import { ImTarget } from "react-icons/im";
+// import { IoCalendarOutline } from "react-icons/io5";
+// import { IoTimerOutline } from "react-icons/io5";
+// import { CiLocationOn } from "react-icons/ci";
 import img1 from '../Eventsection/E1.jpg';
 import img2 from '../Eventsection/E2.jpg';
 import img3 from '../Eventsection/E3.jpg';
+import { Link } from 'react-router-dom';
+
 
 function Eventsection() {
     return (
@@ -91,11 +93,14 @@ function Eventsection() {
                         </div>
                     </div>
                 </div>
-                <button className="p-4 rounded-xl bg-[#FED853] font-bold">Know More</button>
+                <div className="flex flex-col justify-center items-center">
+                    <Link spy={true} smooth={true} to="/Events">
+                        <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]">Know More</button>
+                    </Link>
+                </div>
             </div>
         </div>
     )
-
 }
 
 export default Eventsection

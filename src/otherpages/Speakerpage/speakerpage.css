@@ -1,5 +1,12 @@
 .speakerbg{
-    background-image: url('./speakerbg.svg') ;
+    background-image: url('./speakersbg.jpeg') ;
+  }
+
+  @media screen and (max-width: 640px) {
+    .speakerbg{
+      background-image: url('./speakersbgmob.jpeg') ;
+    }
+    
   }
   
 .glass-morphism {
