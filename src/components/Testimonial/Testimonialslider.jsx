@@ -5,6 +5,9 @@ import "./TestimonialSlider.css"; // Your custom CSS file
 import React from "react";
 import Slider from "react-slick";
 import img from "./Ellipse.png";
+import vc from './1.png'
+import drie from './3.png'
+import facad from './2.png'
 
 function Testimonialslider() {
 	const settings = {
@@ -31,8 +34,8 @@ function Testimonialslider() {
 						financial strategies.
 					</p>
 					<div className="flex flex-row justify-center items-center mt-8 gap-2">
-						<img src={img} alt="" />
-						<div className="flex flex-col">
+						<img src={vc} alt="" className="w-28 h-28 object-cover" />
+						<div className="flex flex-col mx-8">
 							<h1>Dr. Indranil Manna</h1>
 							<p>Vice Chancellor, BIT Mesra</p>
 						</div>
@@ -48,10 +51,10 @@ function Testimonialslider() {
 						commendable.
 					</p>
 					<div className="flex flex-row justify-center items-center mt-8 gap-2">
-						<img src={img} alt="" />
-						<div className="flex flex-col">
-							<h1>xyz</h1>
-							<p>Controller of Examination, BIT Mesra</p>
+						<img src={drie} alt="" className="w-28 h-28 object-cover" />
+						<div className="flex flex-col mx-8">
+							<h1> Dr. C. Jeganathan</h1>
+							<p>Dean of RIE, BIT Mesra</p>
 						</div>
 					</div>
 				</div>
@@ -63,10 +66,10 @@ function Testimonialslider() {
 						push from the seniors that the juniors get is unreal.
 					</p>
 					<div className="flex flex-row justify-center items-center mt-8 gap-2">
-						<img src={img} alt="" />
-						<div className="flex flex-col">
-							<h1>xyz</h1>
-							<p>abc</p>
+						<img src={facad} alt="" className="w-28 h-28 object-cover" />
+						<div className="flex flex-col mx-8">
+							<h1> Mr. Vishal H. Shah</h1>
+							<p>Faculty Advisor </p>
 						</div>
 					</div>
 				</div>

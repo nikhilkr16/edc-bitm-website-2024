@@ -5,6 +5,14 @@ import blobR from "../../assets/blobR.png"
 
 
 function Slidermain() {
+
+    const handleClick = () => {
+        window.open(
+          "https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing",
+          "_blank",
+          "noopener,noreferrer"
+        );
+      };
     
     return(
         <div className="w-screen">
@@ -19,6 +27,17 @@ function Slidermain() {
             <div className="flex justify-center items-center mt-8 md:px-32">
                     <Slider/> 
             </div>
+
+            <div className="flex items-center justify-center">
+
+            <a href="https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing" target="_blank">
+            <button className="bg-[#FED853] font-inter text-black my-3 md:my-0 py-2 px-4 rounded hover:font-bold transition-all duration-300 w-30 h-10"
+            onClick={handleClick}>
+        View More
+      </button>
+            </a>
+      
+    </div>
             
         </div>
         </div>
