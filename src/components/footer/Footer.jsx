@@ -117,10 +117,10 @@ onSubmit={handleSubmit}
           </div>
           <div className="sb__footer-links_div md:ml-40">
             <h3>QUICK LINK</h3>
-            <a href="/Dean">
+            <a href="https://www.linkedin.com/in/jeganathan-chockalingam-126003306/">
               <p className="hover:text-yellow-400">Dean of RIE</p>
             </a>
-            <a href="/FA">
+            <a href="https://www.linkedin.com/in/vishal-h-shah-971bb29/">
               <p className="hover:text-yellow-400">Faculty Advisor</p>
             </a>
             <a href="/hall of Fame">
