@@ -34,7 +34,7 @@ function Hero() {
                            </div>
                            <div className='w-24  flex flex-col items-center text-xl font-semibold '>
                               <div className='text-3xl'> <img src={img2} alt="" /> </div>
-                              <h1 >{counterOn && <CountUp start={0} end={60} duration={2} delay={0.25} />}+</h1>
+                              <h1 >{counterOn && <CountUp start={0} end={100} duration={2} delay={0.25} />}+</h1>
                               <h5 className=''>Events</h5>
                            </div>
                         </div>
@@ -46,7 +46,7 @@ function Hero() {
                            </div>
                            <div className=' w-24  flex flex-col items-center text-xl font-semibold'>
                               <div className='pt-3'> <img src={img4} alt="" /></div>
-                              <h1 > {counterOn && <CountUp start={0} end={7000} duration={2} delay={0.25} />}+</h1>
+                              <h1 > {counterOn && <CountUp start={0} end={10000} duration={2} delay={0.25} />}+</h1>
                               <h5 className=''>Footfalls</h5>
                            </div>
                         </div>
