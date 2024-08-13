@@ -44,13 +44,13 @@ const Footer = () => {
 					<div className="flex  ml-8 lg:gap-20 lg:w-1.5/3 ">
 						<div className="sb__footer-links_div md:w-48  ">
 							<h3>QUICK LINK</h3>
-							<a href="/Dean">
+							<a href="https://www.linkedin.com/in/jeganathan-chockalingam-126003306/?originalSubdomain=in">
 								<p className="hover:text-yellow-400">Dean of RIE</p>
 							</a>
-							<a href="/FA">
+							<a href="https://linkedin.com/in/vishal-hshah/?originalSubdomain=in">
 								<p className="hover:text-yellow-400">Faculty Advisor</p>
 							</a>
-							<a href="/hall of Fame">
+							<a href="/Team">
 								<p className="hover:text-yellow-400">Hall of Fame</p>
 							</a>
 						</div>
