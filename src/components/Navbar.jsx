@@ -106,7 +106,6 @@ const NavBar = () => {
                     <div>
                         {click && content}
                     </div>
-
                     <button className="nav-btn" onClick={handleClick}>
                         {click ? <FaTimes className="icon" /> : <IoMenu className="icon" />}
                     </button>

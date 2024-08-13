@@ -45,7 +45,7 @@ function Eventspage() {
             </div>
           </div>
         </div>
-        <div className="glass-morphic lg:m-20 m-4 p-4 lg:p-12 shadow-2xl rounded-2xl ">
+        <div className="glass-morphic lg:m-20 mt-10 p-4 lg:p-12 shadow-2xl rounded-2xl ">
           <div className="flex flex-row justify-start items-center">
             <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
             <h1 className="text-[25px] ml-[-25px] font-bold">Road Map</h1>
@@ -55,7 +55,7 @@ function Eventspage() {
               <img src={roadmap} alt="" />
             </div>
             <div>
-              <h1 className="text-5xl font-bold">Last Date To Register: 18 August</h1>
+              <h1 className="text-xl md:text-5xl font-bold">Last Date To Register: 18 August</h1>
             </div>
           </div>
         </div>
@@ -84,7 +84,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>STOCK STOCISM</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -97,7 +96,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>STARTUP MELA</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -110,7 +108,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>INNOVATE-A-THON</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -125,7 +122,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>IPL AUCTION</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -138,7 +134,6 @@ function Eventspage() {
                   <div className="event-details">
                     <div className="event-header">
                       <h2>MARKETING SPINOFF</h2>
-                      <button className="participate-button">PARTICIPATE</button>
                     </div>
                     <p>VENUE: ROOM 312</p>
                     <h4>DATE: 24/03/24</h4>
@@ -148,7 +143,6 @@ function Eventspage() {
             </div>
           </div>
         </div>
-
         <Slidermain />
         <Socials />
       </div>
