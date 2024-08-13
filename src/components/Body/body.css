@@ -19,6 +19,16 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width:640px) {
+    .b-body{ 
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Body/homemobilebg.jpeg');
+        background-repeat: no-repeat;
+    }
+    
+}
   
 .heading{
 
