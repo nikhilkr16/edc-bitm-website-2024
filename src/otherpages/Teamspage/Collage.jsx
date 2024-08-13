@@ -13,6 +13,7 @@ import nikhil from './CollageImg/NIKHIL KUMAR.png'
 import varun from './CollageImg/Varun Gupta.jpg'
 import pulkit from './CollageImg/Pulkit Rewri.jpg'
 import diptanshu from './CollageImg/Diptanshu Mahakud.jpg'
+import ved from './CollageImg/ved.png'
 
 function Collage() {
   return (
@@ -36,10 +37,10 @@ function Collage() {
             <div className="relative w-[45em] h-[35em]">
               <img src={one} alt="Image 1" className="absolute w-[18em] h-[16em] top-[7.125em] left-[12.5em] object-cover rounded-[1.25em]" />
 
-              <img src={five} alt="Image 1" className="absolute w-[18em] h-[8.25em] top-[24em] left-[12.5em] object-cover rounded-[1.25em]" />
+              <img src={seven} alt="Image 1" className="absolute w-[18em] h-[8.25em] top-[24em] left-[12.5em] object-cover rounded-[1.25em]" />
 
               <img src={five} alt="Image 2" className="absolute w-[9.375em] h-[8.25em] top-[24em] left-[1.625em] object-cover rounded-[1.25em]" />
-              <img src={seven} alt="Image 3" className="absolute w-[12.625em] h-[8.75em] top-[14.625em] left-[-1.625em] object-cover rounded-[1.25em]" />
+              <img src={ved} alt="Image 3" className="absolute w-[12.625em] h-[8.75em] top-[14.625em] left-[-1.625em] object-cover rounded-[1.25em]" />
               <img src={diptanshu} alt="Image 4" className="absolute w-[9.375em] h-[6.25em] top-[7.5em] left-[1.625em] object-cover rounded-[1.25em]" />
               <img src={six} alt="Image 5" className="absolute w-[12.5em] h-[6.25em] top-[0em] left-[6.4375em] object-cover rounded-[1.25em]" />
               <img src={nikhil} alt="Image 6" className="absolute w-[10.5em] h-[6.25em] top-[0em] left-[20em] object-cover rounded-[1.25em]" />
