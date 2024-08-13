@@ -99,6 +99,12 @@ a{
     flex-direction: row;
 }
 
+.logo3d {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: .35rem;
+}
+
 .sb__footer-links_edc_upper h4{
     font-size: large;
     margin:5px 5px;
