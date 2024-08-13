@@ -19,7 +19,7 @@ function Testimonialslider() {
 		initialSlide: 2,
 		autoplay: true,
 		speed: 1000,
-		autoplaySpeed: 1000,
+		autoplaySpeed: 1800,
 		cssEase: "linear",
 	};
 	return (
