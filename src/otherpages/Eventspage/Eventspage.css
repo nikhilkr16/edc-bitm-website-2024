@@ -7,7 +7,6 @@ body {
   z-index: 9;
   margin-top: -150px;
   margin-bottom: -100px;
-  padding: 5rem;
 }
 
 .glass-morphism {
@@ -47,6 +46,7 @@ body {
 
 .event-details {
   position: absolute;
+  flex: auto;
   bottom: 0;
   left: 0;
   right: 0;
