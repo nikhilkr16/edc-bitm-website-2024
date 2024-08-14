@@ -31,7 +31,7 @@ function Slidermain() {
                 <div className="flex items-center justify-center">
 
                     <a href="https://drive.google.com/drive/folders/1UR_3rWjMEXwj9dTGYKmUvXwDJIsesuMg?usp=sharing" target="_blank">
-                        <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]" onClick={handleClick}>View More</button>
+                        <button className="sm:mt-0 mt-8 p-4 rounded-xl bg-[#FED853] font-bold" onClick={handleClick}>View More</button>
                     </a>
                 </div>
             </div>
