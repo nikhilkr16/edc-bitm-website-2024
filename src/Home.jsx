@@ -1,8 +1,6 @@
 import React from "react"
-import NavBar from "./components/Navbar.jsx"
 import About_us from "./components/About_us.jsx"
 import Body from "./components/Body/body.jsx"
-import Footer from "./components/footer/Footer.jsx"
 import Eventsection from "./components/Eventsection/Eventssection.jsx"
 import Speakers from "./components/speakers/speakers.jsx"
 import Sponser from "./components/Sponser/Sponser.jsx"
@@ -11,13 +9,10 @@ import Wave from "./components/wave/wave.jsx"
 import Slidermain from "./components/Slider/Slidermain.jsx"
 import Testimonial from "./components/Testimonial/Testimonial.jsx"
 import Socials from "./components/socials/socials.jsx"
-//import Gallery from "./components/Slider/carousel.jsx"
-
 
 function Home() {
   return(
     <div>
-      <NavBar/>
       <Body/>
       <About_us/>
       <Hero/>
@@ -28,7 +23,6 @@ function Home() {
       <Wave />
       <Socials />
       <Testimonial/>
-      <Footer />
     </div>
   )
 }

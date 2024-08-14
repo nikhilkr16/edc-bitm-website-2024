@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./footer.css";
-import edclogo from "../../assets/edclogo.png";
+import edclogo from "../../assets/edclogo3d.png";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="sb__footer-links_edc scale-125">
               <div className="sb__footer-links_edc_upper mt-4 ">
                 <p>
-                  <img src={edclogo} className="img01" alt="" />{" "}
+                  <img src={edclogo} className="img01 w-20" alt="" />{" "}
                 </p>
                 <h4>Entrepreneurship Development Cell</h4>
               </div>
@@ -61,7 +61,7 @@ const Footer = () => {
                 <div className="">
                   <form onSubmit={handleSubmit}>
                     <label className=" flex flex-col" >
-                      <div className="  flex h-10 md:w-72 text-black">
+                      <div className="  flex h-10 md:w-72 text-black mb-5">
                         <input onChange={handleChange} type="email" name="email" id="email" value={email} placeholder="Send your message here" required className="h-10 w-full  pl-7 pt-1 pb-1  text-sm rounded-tl-3xl rounded-bl-3xl">
                         </input>
                         <i type="submit" onClick={handleSubmit} className=" h-full w-auto text-3xl font-black pt-1 pr-2  cursor-pointer bg-white rounded-tr-3xl rounded-br-3xl"><FaArrowCircleRight className="text-black" /></i>

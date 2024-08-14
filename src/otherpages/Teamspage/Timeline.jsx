@@ -1,5 +1,5 @@
 import React from "react";
-import edclogo from "../../assets/edclogo.png";
+import edclogo from "../../assets/edclogo3d.png";
 import '../Teamspage/timeline.css';
 import ujjwalS from '../../assets/ujjalSir.png'
 import pranit from '../../assets/Pranit 23-24.jpeg'

@@ -140,7 +140,7 @@ const NavBar = () => {
                         {click && content}
                     </div>
                     <button className="nav-btn" onClick={handleClick}>
-                        {click ? <FaTimes className="icon" /> : <IoMenu className="icon" />}
+                        {click ? <FaTimes className="icon" style={{ fontSize: '3rem' }} /> : <IoMenu className="icon" style={{ fontSize: '3rem' }} />}
                     </button>
                 </div>
             </nav>
