@@ -21,7 +21,9 @@ function Sponser() {
       
         <img className='h-28 w-52 m-3' src="https://cdn.dribbble.com/users/873027/screenshots/3996894/dribbble_001_2x.png" alt="" />
         <img className='h-28 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrEfVcpVCq0lWB0CmMYyM8KBHlxJy1n9RVQ&s" alt="" />
-      
+        <img className='h-28 w-52 m-3' src="https://seeklogo.com/images/H/haldiram-nagpur-logo-82C722F398-seeklogo.com.png" alt="" />
+        <img className='h-28 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZShoVBhCZoflB-I35i_BsVH9Lexeanbbq2Q&s" alt="" />
+
        
         
         </div>
@@ -42,9 +44,6 @@ function Sponser() {
         <img className='h-28 w-52 m-3' src="https://seeklogo.com/images/H/haldiram-nagpur-logo-82C722F398-seeklogo.com.png" alt="" />
         <img className='h-28 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZShoVBhCZoflB-I35i_BsVH9Lexeanbbq2Q&s" alt="" />
 
-            <img className='h-28 w-52 m-3' src="https://cdn.dribbble.com/users/873027/screenshots/3996894/dribbble_001_2x.png" alt="" />
-        <img className='h-28 w-52 m-3' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrEfVcpVCq0lWB0CmMYyM8KBHlxJy1n9RVQ&s" alt="" />
-      
         
           </div>
         
