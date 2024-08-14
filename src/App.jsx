@@ -12,7 +12,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <><NavBar/><Home/></>
+      element: <><NavBar/><Home/><Footer/></>
     },
     {
       path: "/Speakers",
