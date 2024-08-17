@@ -57,15 +57,12 @@ function Teamspage() {
     return (
         <>
             <Collage />
-            <div className='mains'>
-                <div className='hero-2'>
-                <div className="flex flex-row justify-start items-center mt-5 ml-5">
-                <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
-                <h1 className="text-[25px] ml-[-35px] font-bold">Our Team</h1>
-              </div>
-                    <div className='flex justify-evenly columns pt-4'>
-                    <h2 className='text-2xl font-bold mb-4 text-center '>Faculty Members</h2>
-
+                    <div className="flex flex-row justify-start items-center mt-10 ml-10">
+                        <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
+                        <h1 className="text-[25px] ml-[-25px] font-bold">Our Team</h1>
+                    </div>
+                        <h1 className="text-[35px] font-bold mt-10 ml-10">Faculty Members</h1>
+                    <div className='flex justify-center items-center columns pt-8'>
                         <div className='prof'>
                             <img src={sir1} className='sir mb-8' />
                             <div className='text align-center text-center'>
@@ -95,15 +92,12 @@ function Teamspage() {
                             </div>
                         </div>
                     </div>
-
                     <div className='columns'>
                         <div className='p-1'>
                             <h2 className='text-2xl font-bold mb-4 text-center '>Leadership Body</h2>
-
                         </div>
-                        <div className='prof1 flex flex-col align-center justify-evenly '>
-
-                            <div className='flex space*-x-4 justify-evenly columns'>
+                        <div className='prof1 flex flex-col align-center justify-center items-center '>
+                            <div className='flex space*-x-4 justify-center items-center columns'>
                                 <div className='prof'>
                                     <img src={ujjwalS} className='sir mb-8' />
                                     <div className='text align-center text-center'>
@@ -112,19 +106,15 @@ function Teamspage() {
                                             <div class="overlay-text">President</div>
                                             <div className=' flex  gap-4'>
                                                 <div class="icon flex "><FaLinkedin /></div>
-                                                <div class="icon flex "><FaFacebook /></div>
+                                                <div class="icon flex "><FaInstagram /></div>
                                                 <div class="icon flex "><IoIosMail /></div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
-
                         </div>
-                        <div className='flex  justify-evenly columns '>
+                        <div className='flex justify-center items-center columns '>
                             <div className='prof flex ' >
                                 <img src={Varun} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -133,10 +123,9 @@ function Teamspage() {
                                         <div class="overlay-text">Joint President</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -148,10 +137,9 @@ function Teamspage() {
                                         <div class="overlay-text">Joint President</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -163,16 +151,14 @@ function Teamspage() {
                                         <div class="overlay-text">Joint President</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div className='flex space*-x-4 justify-evenly columns'>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={AnshumanRaj} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -181,10 +167,9 @@ function Teamspage() {
                                         <div class="overlay-text">Vice President (Operations)</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -196,10 +181,9 @@ function Teamspage() {
                                         <div class="overlay-text">Vice President (Resources)</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -211,16 +195,12 @@ function Teamspage() {
                                         <div class="overlay-text">Vice President (Events) </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-                        <div className='flex space*-x-4 justify-evenly columns'>
                             <div className='prof flex'>
                                 <img src={Aayush} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -229,13 +209,14 @@ function Teamspage() {
                                         <div class="overlay-text">Vice President (Finance)</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Shantanu} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -244,10 +225,9 @@ function Teamspage() {
                                         <div class="overlay-text">DIRECTOR -Tech</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -259,22 +239,19 @@ function Teamspage() {
                                         <div class="overlay-text">DIRECTOR-events </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                     <div className='columns align-center '>
                         <div className='p-1'>
                             <h2 className='text-2xl font-bold mb-4 text-center'>Executive Body</h2>
                         </div>
-                        <div className='flex space*-x-4 justify-evenly columns'>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Pranav} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -283,10 +260,9 @@ function Teamspage() {
                                         <div class="overlay-text">General Secretary</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -298,13 +274,18 @@ function Teamspage() {
                                         <div class="overlay-text">General Secretary</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+
+                        </div>
+
+                        <div className='flex justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Nishit} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -313,16 +294,13 @@ function Teamspage() {
                                         <div class="overlay-text">Treasurer</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-                        <div className='flex justify-evenly columns'>
                             <div className='prof flex'>
                                 <img src={Yogesh} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -331,7 +309,7 @@ function Teamspage() {
                                         <div class="overlay-text">Joint Secretary</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -346,7 +324,7 @@ function Teamspage() {
                                         <div class="overlay-text">Joint Secretary</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -361,13 +339,17 @@ function Teamspage() {
                                         <div class="overlay-text">Joint Treasurer </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+
+                        </div>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Bhawesh} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -376,16 +358,13 @@ function Teamspage() {
                                         <div class="overlay-text">ASSOCIATE DIRECTOR </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-                        <div className='flex space*-x-4 justify-evenly columns'>
                             <div className='prof flex'>
                                 <img src={Debjyoti} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -394,7 +373,7 @@ function Teamspage() {
                                         <div class="overlay-text">Assosiate Director</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -409,7 +388,7 @@ function Teamspage() {
                                         <div class="overlay-text">Associate Director</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -424,13 +403,18 @@ function Teamspage() {
                                         <div class="overlay-text">ASSOCIATE DIRECTOR  </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+
+                        </div>
+
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Shubham} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -439,17 +423,13 @@ function Teamspage() {
                                         <div class="overlay-text">Events Head </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-
-                        <div className='flex space*-x-4 justify-evenly columns'>
                             <div className='prof flex'>
                                 <img src={harshit} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -458,62 +438,21 @@ function Teamspage() {
                                         <div class="overlay-text">Events head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-                            <div className='prof flex'>
-                                <img src={rachit} className='sir  h-64 w-64' />
-                                <div className='text align-center text-center'>
-                                    <p className='text-center text-2xl name'>RACHIT BANSAL</p>
-                                    <div className='flex flex-col justify-center items-center'>
-                                        <div class="overlay-text">Content head</div>
-                                        <div className=' flex  gap-4'>
-                                            <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
-                                            <div class="icon flex "><IoIosMail /></div>
-                                        </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='prof flex'>
-                                <img src={aman} className='sir  h-64 w-64' />
-                                <div className='text align-center text-center'>
-                                    <p className='text-center text-2xl name'>AMAN PRATIK</p>
-                                    <div className='flex flex-col justify-center items-center'>
-                                        <div class="overlay-text">Content Head  </div>
-                                        <div className=' flex  gap-4'>
-                                            <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
-                                            <div class="icon flex "><IoIosMail /></div>
-                                        </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='prof flex'>
-                                <img src={Yash} className='sir  h-64 w-64' />
-                                <div className='text align-center text-center'>
-                                    <p className='text-center text-2xl name'>YASHWANT BHISE</p>
-                                    <div className='flex flex-col justify-center items-center'>
-                                        <div class="overlay-text">SOCIAL-MEDIA head</div>
-                                        <div className=' flex  gap-4'>
-                                            <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
-                                            <div class="icon flex "><IoIosMail /></div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
 
-                        <div className='flex space*-x-4 justify-evenly columns'>
+
+
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={VarunG} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -522,7 +461,7 @@ function Teamspage() {
                                         <div class="overlay-text">Design head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -537,7 +476,7 @@ function Teamspage() {
                                         <div class="overlay-text">Design head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -552,13 +491,52 @@ function Teamspage() {
                                         <div class="overlay-text">Design head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+
+
+                        </div>
+
+                        <div className='flex space*-x-4 justify-center items-center columns'>
+                            <div className='prof flex'>
+                                <img src={rachit} className='sir  h-64 w-64' />
+                                <div className='text align-center text-center'>
+                                    <p className='text-center text-2xl name'>RACHIT BANSAL</p>
+                                    <div className='flex flex-col justify-center items-center'>
+                                        <div class="overlay-text">Content head</div>
+                                        <div className=' flex  gap-4'>
+                                            <div class="icon flex "><FaLinkedin /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
+                                            <div class="icon flex "><IoIosMail /></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='prof flex'>
+                                <img src={aman} className='sir  h-64 w-64' />
+                                <div className='text align-center text-center'>
+                                    <p className='text-center text-2xl name'>AMAN PRATIK</p>
+                                    <div className='flex flex-col justify-center items-center'>
+                                        <div class="overlay-text">Content Head  </div>
+                                        <div className=' flex  gap-4'>
+                                            <div class="icon flex "><FaLinkedin /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
+                                            <div class="icon flex "><IoIosMail /></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Krish} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -567,19 +545,13 @@ function Teamspage() {
                                         <div class="overlay-text">TECH head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-
-
-                        </div>
-
-
-                        <div className='flex space*-x-4 justify-evenly columns'>
                             <div className='prof flex'>
                                 <img src={Nikhil} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -588,7 +560,7 @@ function Teamspage() {
                                         <div class="overlay-text">TECH HEAD</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -603,22 +575,28 @@ function Teamspage() {
                                         <div class="overlay-text">TECH HEAD</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+
+
+
+                        </div>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
-                                <img src={Singh} className='sir  h-64 w-64' />
+                                <img src={Yash} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
-                                    <p className='text-center text-2xl name'>SHOURYAMAN SINGH </p>
+                                    <p className='text-center text-2xl name'>YASHWANT BHISE</p>
                                     <div className='flex flex-col justify-center items-center'>
-                                        <div class="overlay-text">Public relations head</div>
+                                        <div class="overlay-text">SOCIAL-MEDIA head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -633,7 +611,22 @@ function Teamspage() {
                                         <div class="overlay-text">PUBLIC RELATIONS</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
+                                            <div class="icon flex "><IoIosMail /></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='prof flex'>
+                                <img src={Singh} className='sir  h-64 w-64' />
+                                <div className='text align-center text-center'>
+                                    <p className='text-center text-2xl name'>SHOURYAMAN SINGH </p>
+                                    <div className='flex flex-col justify-center items-center'>
+                                        <div class="overlay-text">Public relations head</div>
+                                        <div className=' flex  gap-4'>
+                                            <div class="icon flex "><FaLinkedin /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -642,10 +635,12 @@ function Teamspage() {
                             </div>
 
 
+
+
                         </div>
 
 
-                        <div className='flex space*-x-4 justify-evenly columns'>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Savit} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -654,7 +649,7 @@ function Teamspage() {
                                         <div class="overlay-text">Logistics head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -669,7 +664,7 @@ function Teamspage() {
                                         <div class="overlay-text">LOGISTICS HEAD</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -684,7 +679,7 @@ function Teamspage() {
                                         <div class="overlay-text">Resource head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -699,7 +694,7 @@ function Teamspage() {
                                         <div class="overlay-text">Resource head</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -712,7 +707,7 @@ function Teamspage() {
 
 
 
-                        <div className='flex space*-x-4 justify-evenly columns'>
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={Adarsh2} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -721,7 +716,7 @@ function Teamspage() {
                                         <div class="overlay-text">Senior executive members </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -736,7 +731,7 @@ function Teamspage() {
                                         <div class="overlay-text">Senior executive members </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -751,13 +746,20 @@ function Teamspage() {
                                         <div class="overlay-text">SENIOR EXECUTIVE MEMBER</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+
+
+                        </div>
+
+
+                        <div className='flex space*-x-4 justify-center items-center columns'>
                             <div className='prof flex'>
                                 <img src={AyushK} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -766,19 +768,13 @@ function Teamspage() {
                                         <div class="overlay-text">SENIOR EXECUTIVE MEMBER</div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-
-
-                        </div>
-
-
-                        <div className='flex space*-x-4 justify-evenly columns'>
                             <div className='prof flex'>
                                 <img src={Diptanshu} className='sir  h-64 w-64' />
                                 <div className='text align-center text-center'>
@@ -787,7 +783,7 @@ function Teamspage() {
                                         <div class="overlay-text">Senior executive members </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -802,7 +798,7 @@ function Teamspage() {
                                         <div class="overlay-text">Senior executive members </div>
                                         <div className=' flex  gap-4'>
                                             <div class="icon flex "><FaLinkedin /></div>
-                                            <div class="icon flex "><FaFacebook /></div>
+                                            <div class="icon flex "><FaInstagram /></div>
                                             <div class="icon flex "><IoIosMail /></div>
                                         </div>
 
@@ -827,11 +823,8 @@ function Teamspage() {
 
 
                     </div>
-                </div>
-
-            </div>
             <Timeline />
-            <img src={blob} class="blob11" />
+            <img src={blob} class="blob11 -z-10 mt-10" />
             <img src={blob} class="blob22" />
             <img src={blobR} class="blob33" />
             <img src={blobR} class="blob55" />
